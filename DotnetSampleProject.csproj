@@ -13,10 +13,10 @@
     </ItemGroup>
     <ItemGroup>
       <Reference Include="System.Security.Cryptography.Pkcs">
-        <HintPath>..\corefx\artifacts\bin\runtime\netcoreapp-Windows_NT-Debug-x64\System.Security.Cryptography.Pkcs.dll</HintPath>
+        <HintPath>C:\packages\runtime-debug-windows\System.Security.Cryptography.Pkcs.dll</HintPath>
       </Reference>
       <Reference Include="System.Security.Cryptography.Xml">
-        <HintPath>..\corefx\artifacts\bin\runtime\netcoreapp-Windows_NT-Debug-x64\System.Security.Cryptography.Xml.dll</HintPath>
+        <HintPath>C:\packages\runtime-debug-windows\System.Security.Cryptography.Xml.dll</HintPath>
       </Reference>
     </ItemGroup>
 </Project>

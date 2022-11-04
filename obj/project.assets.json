@@ -1,0 +1,2319 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Microsoft.Private.CoreFx.NETCoreApp/4.7.0-dev.21370.1": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp3.1/Microsoft.CSharp.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/Microsoft.VisualBasic.Core.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/Microsoft.VisualBasic.dll": {
+            "related": ".Core.pdb;.Core.xml;.pdb"
+          },
+          "ref/netcoreapp3.1/Microsoft.Win32.Primitives.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.AppContext.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.Buffers.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Collections.Concurrent.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Collections.Immutable.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Collections.NonGeneric.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Collections.Specialized.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Collections.dll": {
+            "related": ".Concurrent.pdb;.Concurrent.xml;.Immutable.pdb;.Immutable.xml;.NonGeneric.pdb;.NonGeneric.xml;.pdb;.Specialized.pdb;.Specialized.xml;.xml"
+          },
+          "ref/netcoreapp3.1/System.ComponentModel.Annotations.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.ComponentModel.DataAnnotations.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.ComponentModel.EventBasedAsync.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.ComponentModel.Primitives.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.ComponentModel.TypeConverter.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.ComponentModel.dll": {
+            "related": ".Annotations.pdb;.Annotations.xml;.DataAnnotations.pdb;.EventBasedAsync.pdb;.EventBasedAsync.xml;.pdb;.Primitives.pdb;.Primitives.xml;.TypeConverter.pdb;.TypeConverter.xml;.xml"
+          },
+          "ref/netcoreapp3.1/System.Configuration.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.Console.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Core.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.Data.Common.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Data.DataSetExtensions.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.Data.dll": {
+            "related": ".Common.pdb;.Common.xml;.DataSetExtensions.pdb;.pdb"
+          },
+          "ref/netcoreapp3.1/System.Diagnostics.Contracts.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Diagnostics.Debug.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Diagnostics.FileVersionInfo.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Diagnostics.Process.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Diagnostics.StackTrace.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Diagnostics.TextWriterTraceListener.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Diagnostics.Tools.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Diagnostics.TraceSource.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Diagnostics.Tracing.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Drawing.Primitives.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Drawing.dll": {
+            "related": ".pdb;.Primitives.pdb;.Primitives.xml"
+          },
+          "ref/netcoreapp3.1/System.Dynamic.Runtime.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.Globalization.Calendars.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.Globalization.Extensions.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.Globalization.dll": {
+            "related": ".Calendars.pdb;.Extensions.pdb;.pdb"
+          },
+          "ref/netcoreapp3.1/System.IO.Compression.Brotli.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.IO.Compression.FileSystem.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.IO.Compression.ZipFile.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.IO.Compression.dll": {
+            "related": ".Brotli.pdb;.Brotli.xml;.FileSystem.pdb;.pdb;.xml;.ZipFile.pdb;.ZipFile.xml"
+          },
+          "ref/netcoreapp3.1/System.IO.FileSystem.DriveInfo.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.IO.FileSystem.Primitives.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.IO.FileSystem.Watcher.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.IO.FileSystem.dll": {
+            "related": ".DriveInfo.pdb;.DriveInfo.xml;.pdb;.Primitives.pdb;.Watcher.pdb;.Watcher.xml;.xml"
+          },
+          "ref/netcoreapp3.1/System.IO.IsolatedStorage.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.IO.MemoryMappedFiles.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.IO.Pipes.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.IO.UnmanagedMemoryStream.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.IO.dll": {
+            "related": ".Compression.Brotli.pdb;.Compression.Brotli.xml;.Compression.FileSystem.pdb;.Compression.pdb;.Compression.xml;.Compression.ZipFile.pdb;.Compression.ZipFile.xml;.FileSystem.DriveInfo.pdb;.FileSystem.DriveInfo.xml;.FileSystem.pdb;.FileSystem.Primitives.pdb;.FileSystem.Watcher.pdb;.FileSystem.Watcher.xml;.FileSystem.xml;.IsolatedStorage.pdb;.IsolatedStorage.xml;.MemoryMappedFiles.pdb;.MemoryMappedFiles.xml;.pdb;.Pipes.pdb;.Pipes.xml;.UnmanagedMemoryStream.pdb"
+          },
+          "ref/netcoreapp3.1/System.Linq.Expressions.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Linq.Parallel.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Linq.Queryable.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Linq.dll": {
+            "related": ".Expressions.pdb;.Expressions.xml;.Parallel.pdb;.Parallel.xml;.pdb;.Queryable.pdb;.Queryable.xml;.xml"
+          },
+          "ref/netcoreapp3.1/System.Memory.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Net.Http.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Net.HttpListener.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Net.Mail.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Net.NameResolution.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Net.NetworkInformation.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Net.Ping.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Net.Primitives.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Net.Requests.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Net.Security.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Net.ServicePoint.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Net.Sockets.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Net.WebClient.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Net.WebHeaderCollection.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Net.WebProxy.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Net.WebSockets.Client.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Net.WebSockets.dll": {
+            "related": ".Client.pdb;.Client.xml;.pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Net.dll": {
+            "related": ".Http.pdb;.Http.xml;.HttpListener.pdb;.HttpListener.xml;.Mail.pdb;.Mail.xml;.NameResolution.pdb;.NameResolution.xml;.NetworkInformation.pdb;.NetworkInformation.xml;.pdb;.Ping.pdb;.Ping.xml;.Primitives.pdb;.Primitives.xml;.Requests.pdb;.Requests.xml;.Security.pdb;.Security.xml;.ServicePoint.pdb;.ServicePoint.xml;.Sockets.pdb;.Sockets.xml;.WebClient.pdb;.WebClient.xml;.WebHeaderCollection.pdb;.WebHeaderCollection.xml;.WebProxy.pdb;.WebProxy.xml;.WebSockets.Client.pdb;.WebSockets.Client.xml;.WebSockets.pdb;.WebSockets.xml"
+          },
+          "ref/netcoreapp3.1/System.Numerics.Vectors.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Numerics.dll": {
+            "related": ".pdb;.Vectors.pdb;.Vectors.xml"
+          },
+          "ref/netcoreapp3.1/System.ObjectModel.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Reflection.DispatchProxy.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Reflection.Emit.ILGeneration.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Reflection.Emit.Lightweight.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Reflection.Emit.dll": {
+            "related": ".ILGeneration.pdb;.ILGeneration.xml;.Lightweight.pdb;.Lightweight.xml;.pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Reflection.Extensions.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.Reflection.Metadata.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Reflection.Primitives.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Reflection.TypeExtensions.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Reflection.dll": {
+            "related": ".DispatchProxy.pdb;.DispatchProxy.xml;.Emit.ILGeneration.pdb;.Emit.ILGeneration.xml;.Emit.Lightweight.pdb;.Emit.Lightweight.xml;.Emit.pdb;.Emit.xml;.Extensions.pdb;.Metadata.pdb;.Metadata.xml;.pdb;.Primitives.pdb;.Primitives.xml;.TypeExtensions.pdb;.TypeExtensions.xml"
+          },
+          "ref/netcoreapp3.1/System.Resources.Reader.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.Resources.ResourceManager.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Resources.Writer.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Runtime.CompilerServices.VisualC.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Runtime.Extensions.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Runtime.Handles.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.Runtime.InteropServices.RuntimeInformation.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Runtime.InteropServices.WindowsRuntime.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Runtime.InteropServices.dll": {
+            "related": ".pdb;.RuntimeInformation.pdb;.RuntimeInformation.xml;.WindowsRuntime.pdb;.WindowsRuntime.xml;.xml"
+          },
+          "ref/netcoreapp3.1/System.Runtime.Intrinsics.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Runtime.Loader.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Runtime.Numerics.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Runtime.Serialization.Formatters.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Runtime.Serialization.Json.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Runtime.Serialization.Primitives.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Runtime.Serialization.Xml.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Runtime.Serialization.dll": {
+            "related": ".Formatters.pdb;.Formatters.xml;.Json.pdb;.Json.xml;.pdb;.Primitives.pdb;.Primitives.xml;.Xml.pdb;.Xml.xml"
+          },
+          "ref/netcoreapp3.1/System.Runtime.dll": {
+            "related": ".CompilerServices.Unsafe.pdb;.CompilerServices.Unsafe.xml;.CompilerServices.VisualC.pdb;.CompilerServices.VisualC.xml;.Extensions.pdb;.Extensions.xml;.Handles.pdb;.InteropServices.pdb;.InteropServices.RuntimeInformation.pdb;.InteropServices.RuntimeInformation.xml;.InteropServices.WindowsRuntime.pdb;.InteropServices.WindowsRuntime.xml;.InteropServices.xml;.Intrinsics.pdb;.Intrinsics.xml;.Loader.pdb;.Loader.xml;.Numerics.pdb;.Numerics.xml;.pdb;.Serialization.Formatters.pdb;.Serialization.Formatters.xml;.Serialization.Json.pdb;.Serialization.Json.xml;.Serialization.pdb;.Serialization.Primitives.pdb;.Serialization.Primitives.xml;.Serialization.Xml.pdb;.Serialization.Xml.xml;.xml"
+          },
+          "ref/netcoreapp3.1/System.Security.Claims.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Security.Cryptography.Algorithms.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Security.Cryptography.Csp.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Security.Cryptography.Encoding.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Security.Cryptography.Primitives.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Security.Cryptography.X509Certificates.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Security.Principal.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Security.SecureString.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.Security.dll": {
+            "related": ".Claims.pdb;.Claims.xml;.Cryptography.Algorithms.pdb;.Cryptography.Algorithms.xml;.Cryptography.Csp.pdb;.Cryptography.Csp.xml;.Cryptography.Encoding.pdb;.Cryptography.Encoding.xml;.Cryptography.Primitives.pdb;.Cryptography.Primitives.xml;.Cryptography.X509Certificates.pdb;.Cryptography.X509Certificates.xml;.pdb;.Principal.pdb;.Principal.xml;.SecureString.pdb"
+          },
+          "ref/netcoreapp3.1/System.ServiceModel.Web.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.ServiceProcess.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.Text.Encoding.CodePages.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Text.Encoding.Extensions.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Text.Encoding.dll": {
+            "related": ".CodePages.pdb;.CodePages.xml;.Extensions.pdb;.Extensions.xml;.pdb"
+          },
+          "ref/netcoreapp3.1/System.Text.Encodings.Web.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Text.Json.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Text.RegularExpressions.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Threading.Channels.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Threading.Overlapped.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Threading.Tasks.Dataflow.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Threading.Tasks.Extensions.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.Threading.Tasks.Parallel.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Threading.Tasks.dll": {
+            "related": ".Dataflow.pdb;.Dataflow.xml;.Extensions.pdb;.Parallel.pdb;.Parallel.xml;.pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Threading.Thread.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Threading.ThreadPool.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Threading.Timer.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Threading.dll": {
+            "related": ".Channels.pdb;.Channels.xml;.Overlapped.pdb;.Overlapped.xml;.pdb;.Tasks.Dataflow.pdb;.Tasks.Dataflow.xml;.Tasks.Extensions.pdb;.Tasks.Parallel.pdb;.Tasks.Parallel.xml;.Tasks.pdb;.Tasks.xml;.Thread.pdb;.Thread.xml;.ThreadPool.pdb;.ThreadPool.xml;.Timer.pdb;.Timer.xml;.xml"
+          },
+          "ref/netcoreapp3.1/System.Transactions.Local.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Transactions.dll": {
+            "related": ".Local.pdb;.Local.xml;.pdb"
+          },
+          "ref/netcoreapp3.1/System.ValueTuple.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.Web.HttpUtility.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Web.dll": {
+            "related": ".HttpUtility.pdb;.HttpUtility.xml;.pdb"
+          },
+          "ref/netcoreapp3.1/System.Windows.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.Xml.Linq.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.Xml.ReaderWriter.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Xml.Serialization.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.Xml.XDocument.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Xml.XPath.XDocument.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Xml.XPath.dll": {
+            "related": ".pdb;.XDocument.pdb;.XDocument.xml;.xml"
+          },
+          "ref/netcoreapp3.1/System.Xml.XmlDocument.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.Xml.XmlSerializer.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Xml.dll": {
+            "related": ".Linq.pdb;.pdb;.ReaderWriter.pdb;.ReaderWriter.xml;.Serialization.pdb;.XDocument.pdb;.XDocument.xml;.XmlDocument.pdb;.XmlSerializer.pdb;.XmlSerializer.xml;.XPath.pdb;.XPath.XDocument.pdb;.XPath.XDocument.xml;.XPath.xml"
+          },
+          "ref/netcoreapp3.1/System.dll": {
+            "related": ".AppContext.pdb;.Buffers.pdb;.Buffers.xml;.Collections.Concurrent.pdb;.Collections.Concurrent.xml;.Collections.Immutable.pdb;.Collections.Immutable.xml;.Collections.NonGeneric.pdb;.Collections.NonGeneric.xml;.Collections.pdb;.Collections.Specialized.pdb;.Collections.Specialized.xml;.Collections.xml;.ComponentModel.Annotations.pdb;.ComponentModel.Annotations.xml;.ComponentModel.DataAnnotations.pdb;.ComponentModel.EventBasedAsync.pdb;.ComponentModel.EventBasedAsync.xml;.ComponentModel.pdb;.ComponentModel.Primitives.pdb;.ComponentModel.Primitives.xml;.ComponentModel.TypeConverter.pdb;.ComponentModel.TypeConverter.xml;.ComponentModel.xml;.Configuration.pdb;.Console.pdb;.Console.xml;.Core.pdb;.Data.Common.pdb;.Data.Common.xml;.Data.DataSetExtensions.pdb;.Data.pdb;.Diagnostics.Contracts.pdb;.Diagnostics.Contracts.xml;.Diagnostics.Debug.pdb;.Diagnostics.Debug.xml;.Diagnostics.DiagnosticSource.pdb;.Diagnostics.DiagnosticSource.xml;.Diagnostics.FileVersionInfo.pdb;.Diagnostics.FileVersionInfo.xml;.Diagnostics.Process.pdb;.Diagnostics.Process.xml;.Diagnostics.StackTrace.pdb;.Diagnostics.StackTrace.xml;.Diagnostics.TextWriterTraceListener.pdb;.Diagnostics.TextWriterTraceListener.xml;.Diagnostics.Tools.pdb;.Diagnostics.Tools.xml;.Diagnostics.TraceSource.pdb;.Diagnostics.TraceSource.xml;.Diagnostics.Tracing.pdb;.Diagnostics.Tracing.xml;.Drawing.pdb;.Drawing.Primitives.pdb;.Drawing.Primitives.xml;.Dynamic.Runtime.pdb;.Globalization.Calendars.pdb;.Globalization.Extensions.pdb;.Globalization.pdb;.IO.Compression.Brotli.pdb;.IO.Compression.Brotli.xml;.IO.Compression.FileSystem.pdb;.IO.Compression.pdb;.IO.Compression.xml;.IO.Compression.ZipFile.pdb;.IO.Compression.ZipFile.xml;.IO.FileSystem.DriveInfo.pdb;.IO.FileSystem.DriveInfo.xml;.IO.FileSystem.pdb;.IO.FileSystem.Primitives.pdb;.IO.FileSystem.Watcher.pdb;.IO.FileSystem.Watcher.xml;.IO.FileSystem.xml;.IO.IsolatedStorage.pdb;.IO.IsolatedStorage.xml;.IO.MemoryMappedFiles.pdb;.IO.MemoryMappedFiles.xml;.IO.pdb;.IO.Pipes.pdb;.IO.Pipes.xml;.IO.UnmanagedMemoryStream.pdb;.Linq.Expressions.pdb;.Linq.Expressions.xml;.Linq.Parallel.pdb;.Linq.Parallel.xml;.Linq.pdb;.Linq.Queryable.pdb;.Linq.Queryable.xml;.Linq.xml;.Memory.pdb;.Memory.xml;.Net.Http.pdb;.Net.Http.xml;.Net.HttpListener.pdb;.Net.HttpListener.xml;.Net.Mail.pdb;.Net.Mail.xml;.Net.NameResolution.pdb;.Net.NameResolution.xml;.Net.NetworkInformation.pdb;.Net.NetworkInformation.xml;.Net.pdb;.Net.Ping.pdb;.Net.Ping.xml;.Net.Primitives.pdb;.Net.Primitives.xml;.Net.Requests.pdb;.Net.Requests.xml;.Net.Security.pdb;.Net.Security.xml;.Net.ServicePoint.pdb;.Net.ServicePoint.xml;.Net.Sockets.pdb;.Net.Sockets.xml;.Net.WebClient.pdb;.Net.WebClient.xml;.Net.WebHeaderCollection.pdb;.Net.WebHeaderCollection.xml;.Net.WebProxy.pdb;.Net.WebProxy.xml;.Net.WebSockets.Client.pdb;.Net.WebSockets.Client.xml;.Net.WebSockets.pdb;.Net.WebSockets.xml;.Numerics.pdb;.Numerics.Vectors.pdb;.Numerics.Vectors.xml;.ObjectModel.pdb;.ObjectModel.xml;.pdb;.Reflection.DispatchProxy.pdb;.Reflection.DispatchProxy.xml;.Reflection.Emit.ILGeneration.pdb;.Reflection.Emit.ILGeneration.xml;.Reflection.Emit.Lightweight.pdb;.Reflection.Emit.Lightweight.xml;.Reflection.Emit.pdb;.Reflection.Emit.xml;.Reflection.Extensions.pdb;.Reflection.Metadata.pdb;.Reflection.Metadata.xml;.Reflection.pdb;.Reflection.Primitives.pdb;.Reflection.Primitives.xml;.Reflection.TypeExtensions.pdb;.Reflection.TypeExtensions.xml;.Resources.Reader.pdb;.Resources.ResourceManager.pdb;.Resources.ResourceManager.xml;.Resources.Writer.pdb;.Resources.Writer.xml;.Runtime.CompilerServices.Unsafe.pdb;.Runtime.CompilerServices.Unsafe.xml;.Runtime.CompilerServices.VisualC.pdb;.Runtime.CompilerServices.VisualC.xml;.Runtime.Extensions.pdb;.Runtime.Extensions.xml;.Runtime.Handles.pdb;.Runtime.InteropServices.pdb;.Runtime.InteropServices.RuntimeInformation.pdb;.Runtime.InteropServices.RuntimeInformation.xml;.Runtime.InteropServices.WindowsRuntime.pdb;.Runtime.InteropServices.WindowsRuntime.xml;.Runtime.InteropServices.xml;.Runtime.Intrinsics.pdb;.Runtime.Intrinsics.xml;.Runtime.Loader.pdb;.Runtime.Loader.xml;.Runtime.Numerics.pdb;.Runtime.Numerics.xml;.Runtime.pdb;.Runtime.Serialization.Formatters.pdb;.Runtime.Serialization.Formatters.xml;.Runtime.Serialization.Json.pdb;.Runtime.Serialization.Json.xml;.Runtime.Serialization.pdb;.Runtime.Serialization.Primitives.pdb;.Runtime.Serialization.Primitives.xml;.Runtime.Serialization.Xml.pdb;.Runtime.Serialization.Xml.xml;.Runtime.xml;.Security.Claims.pdb;.Security.Claims.xml;.Security.Cryptography.Algorithms.pdb;.Security.Cryptography.Algorithms.xml;.Security.Cryptography.Csp.pdb;.Security.Cryptography.Csp.xml;.Security.Cryptography.Encoding.pdb;.Security.Cryptography.Encoding.xml;.Security.Cryptography.Primitives.pdb;.Security.Cryptography.Primitives.xml;.Security.Cryptography.X509Certificates.pdb;.Security.Cryptography.X509Certificates.xml;.Security.pdb;.Security.Principal.pdb;.Security.Principal.xml;.Security.SecureString.pdb;.ServiceModel.Web.pdb;.ServiceProcess.pdb;.Text.Encoding.CodePages.pdb;.Text.Encoding.CodePages.xml;.Text.Encoding.Extensions.pdb;.Text.Encoding.Extensions.xml;.Text.Encoding.pdb;.Text.Encodings.Web.pdb;.Text.Encodings.Web.xml;.Text.Json.pdb;.Text.Json.xml;.Text.RegularExpressions.pdb;.Text.RegularExpressions.xml;.Threading.Channels.pdb;.Threading.Channels.xml;.Threading.Overlapped.pdb;.Threading.Overlapped.xml;.Threading.pdb;.Threading.Tasks.Dataflow.pdb;.Threading.Tasks.Dataflow.xml;.Threading.Tasks.Extensions.pdb;.Threading.Tasks.Parallel.pdb;.Threading.Tasks.Parallel.xml;.Threading.Tasks.pdb;.Threading.Tasks.xml;.Threading.Thread.pdb;.Threading.Thread.xml;.Threading.ThreadPool.pdb;.Threading.ThreadPool.xml;.Threading.Timer.pdb;.Threading.Timer.xml;.Threading.xml;.Transactions.Local.pdb;.Transactions.Local.xml;.Transactions.pdb;.ValueTuple.pdb;.Web.HttpUtility.pdb;.Web.HttpUtility.xml;.Web.pdb;.Windows.pdb;.Xml.Linq.pdb;.Xml.pdb;.Xml.ReaderWriter.pdb;.Xml.ReaderWriter.xml;.Xml.Serialization.pdb;.Xml.XDocument.pdb;.Xml.XDocument.xml;.Xml.XmlDocument.pdb;.Xml.XmlSerializer.pdb;.Xml.XmlSerializer.xml;.Xml.XPath.pdb;.Xml.XPath.XDocument.pdb;.Xml.XPath.XDocument.xml;.Xml.XPath.xml"
+          },
+          "ref/netcoreapp3.1/WindowsBase.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/mscorlib.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/netstandard.dll": {
+            "related": ".pdb"
+          }
+        }
+      }
+    },
+    ".NETCoreApp,Version=v3.1/win-x64": {
+      "Microsoft.Private.CoreFx.NETCoreApp/4.7.0-dev.21370.1": {
+        "type": "package",
+        "dependencies": {
+          "runtime.win-x64.Microsoft.Private.CoreFx.NETCoreApp": "4.7.0-dev.21370.1"
+        },
+        "compile": {
+          "ref/netcoreapp3.1/Microsoft.CSharp.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/Microsoft.VisualBasic.Core.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/Microsoft.VisualBasic.dll": {
+            "related": ".Core.pdb;.Core.xml;.pdb"
+          },
+          "ref/netcoreapp3.1/Microsoft.Win32.Primitives.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.AppContext.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.Buffers.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Collections.Concurrent.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Collections.Immutable.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Collections.NonGeneric.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Collections.Specialized.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Collections.dll": {
+            "related": ".Concurrent.pdb;.Concurrent.xml;.Immutable.pdb;.Immutable.xml;.NonGeneric.pdb;.NonGeneric.xml;.pdb;.Specialized.pdb;.Specialized.xml;.xml"
+          },
+          "ref/netcoreapp3.1/System.ComponentModel.Annotations.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.ComponentModel.DataAnnotations.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.ComponentModel.EventBasedAsync.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.ComponentModel.Primitives.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.ComponentModel.TypeConverter.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.ComponentModel.dll": {
+            "related": ".Annotations.pdb;.Annotations.xml;.DataAnnotations.pdb;.EventBasedAsync.pdb;.EventBasedAsync.xml;.pdb;.Primitives.pdb;.Primitives.xml;.TypeConverter.pdb;.TypeConverter.xml;.xml"
+          },
+          "ref/netcoreapp3.1/System.Configuration.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.Console.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Core.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.Data.Common.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Data.DataSetExtensions.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.Data.dll": {
+            "related": ".Common.pdb;.Common.xml;.DataSetExtensions.pdb;.pdb"
+          },
+          "ref/netcoreapp3.1/System.Diagnostics.Contracts.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Diagnostics.Debug.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Diagnostics.FileVersionInfo.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Diagnostics.Process.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Diagnostics.StackTrace.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Diagnostics.TextWriterTraceListener.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Diagnostics.Tools.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Diagnostics.TraceSource.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Diagnostics.Tracing.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Drawing.Primitives.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Drawing.dll": {
+            "related": ".pdb;.Primitives.pdb;.Primitives.xml"
+          },
+          "ref/netcoreapp3.1/System.Dynamic.Runtime.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.Globalization.Calendars.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.Globalization.Extensions.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.Globalization.dll": {
+            "related": ".Calendars.pdb;.Extensions.pdb;.pdb"
+          },
+          "ref/netcoreapp3.1/System.IO.Compression.Brotli.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.IO.Compression.FileSystem.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.IO.Compression.ZipFile.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.IO.Compression.dll": {
+            "related": ".Brotli.pdb;.Brotli.xml;.FileSystem.pdb;.pdb;.xml;.ZipFile.pdb;.ZipFile.xml"
+          },
+          "ref/netcoreapp3.1/System.IO.FileSystem.DriveInfo.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.IO.FileSystem.Primitives.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.IO.FileSystem.Watcher.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.IO.FileSystem.dll": {
+            "related": ".DriveInfo.pdb;.DriveInfo.xml;.pdb;.Primitives.pdb;.Watcher.pdb;.Watcher.xml;.xml"
+          },
+          "ref/netcoreapp3.1/System.IO.IsolatedStorage.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.IO.MemoryMappedFiles.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.IO.Pipes.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.IO.UnmanagedMemoryStream.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.IO.dll": {
+            "related": ".Compression.Brotli.pdb;.Compression.Brotli.xml;.Compression.FileSystem.pdb;.Compression.pdb;.Compression.xml;.Compression.ZipFile.pdb;.Compression.ZipFile.xml;.FileSystem.DriveInfo.pdb;.FileSystem.DriveInfo.xml;.FileSystem.pdb;.FileSystem.Primitives.pdb;.FileSystem.Watcher.pdb;.FileSystem.Watcher.xml;.FileSystem.xml;.IsolatedStorage.pdb;.IsolatedStorage.xml;.MemoryMappedFiles.pdb;.MemoryMappedFiles.xml;.pdb;.Pipes.pdb;.Pipes.xml;.UnmanagedMemoryStream.pdb"
+          },
+          "ref/netcoreapp3.1/System.Linq.Expressions.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Linq.Parallel.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Linq.Queryable.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Linq.dll": {
+            "related": ".Expressions.pdb;.Expressions.xml;.Parallel.pdb;.Parallel.xml;.pdb;.Queryable.pdb;.Queryable.xml;.xml"
+          },
+          "ref/netcoreapp3.1/System.Memory.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Net.Http.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Net.HttpListener.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Net.Mail.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Net.NameResolution.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Net.NetworkInformation.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Net.Ping.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Net.Primitives.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Net.Requests.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Net.Security.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Net.ServicePoint.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Net.Sockets.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Net.WebClient.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Net.WebHeaderCollection.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Net.WebProxy.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Net.WebSockets.Client.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Net.WebSockets.dll": {
+            "related": ".Client.pdb;.Client.xml;.pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Net.dll": {
+            "related": ".Http.pdb;.Http.xml;.HttpListener.pdb;.HttpListener.xml;.Mail.pdb;.Mail.xml;.NameResolution.pdb;.NameResolution.xml;.NetworkInformation.pdb;.NetworkInformation.xml;.pdb;.Ping.pdb;.Ping.xml;.Primitives.pdb;.Primitives.xml;.Requests.pdb;.Requests.xml;.Security.pdb;.Security.xml;.ServicePoint.pdb;.ServicePoint.xml;.Sockets.pdb;.Sockets.xml;.WebClient.pdb;.WebClient.xml;.WebHeaderCollection.pdb;.WebHeaderCollection.xml;.WebProxy.pdb;.WebProxy.xml;.WebSockets.Client.pdb;.WebSockets.Client.xml;.WebSockets.pdb;.WebSockets.xml"
+          },
+          "ref/netcoreapp3.1/System.Numerics.Vectors.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Numerics.dll": {
+            "related": ".pdb;.Vectors.pdb;.Vectors.xml"
+          },
+          "ref/netcoreapp3.1/System.ObjectModel.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Reflection.DispatchProxy.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Reflection.Emit.ILGeneration.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Reflection.Emit.Lightweight.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Reflection.Emit.dll": {
+            "related": ".ILGeneration.pdb;.ILGeneration.xml;.Lightweight.pdb;.Lightweight.xml;.pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Reflection.Extensions.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.Reflection.Metadata.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Reflection.Primitives.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Reflection.TypeExtensions.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Reflection.dll": {
+            "related": ".DispatchProxy.pdb;.DispatchProxy.xml;.Emit.ILGeneration.pdb;.Emit.ILGeneration.xml;.Emit.Lightweight.pdb;.Emit.Lightweight.xml;.Emit.pdb;.Emit.xml;.Extensions.pdb;.Metadata.pdb;.Metadata.xml;.pdb;.Primitives.pdb;.Primitives.xml;.TypeExtensions.pdb;.TypeExtensions.xml"
+          },
+          "ref/netcoreapp3.1/System.Resources.Reader.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.Resources.ResourceManager.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Resources.Writer.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Runtime.CompilerServices.VisualC.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Runtime.Extensions.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Runtime.Handles.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.Runtime.InteropServices.RuntimeInformation.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Runtime.InteropServices.WindowsRuntime.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Runtime.InteropServices.dll": {
+            "related": ".pdb;.RuntimeInformation.pdb;.RuntimeInformation.xml;.WindowsRuntime.pdb;.WindowsRuntime.xml;.xml"
+          },
+          "ref/netcoreapp3.1/System.Runtime.Intrinsics.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Runtime.Loader.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Runtime.Numerics.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Runtime.Serialization.Formatters.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Runtime.Serialization.Json.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Runtime.Serialization.Primitives.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Runtime.Serialization.Xml.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Runtime.Serialization.dll": {
+            "related": ".Formatters.pdb;.Formatters.xml;.Json.pdb;.Json.xml;.pdb;.Primitives.pdb;.Primitives.xml;.Xml.pdb;.Xml.xml"
+          },
+          "ref/netcoreapp3.1/System.Runtime.dll": {
+            "related": ".CompilerServices.Unsafe.pdb;.CompilerServices.Unsafe.xml;.CompilerServices.VisualC.pdb;.CompilerServices.VisualC.xml;.Extensions.pdb;.Extensions.xml;.Handles.pdb;.InteropServices.pdb;.InteropServices.RuntimeInformation.pdb;.InteropServices.RuntimeInformation.xml;.InteropServices.WindowsRuntime.pdb;.InteropServices.WindowsRuntime.xml;.InteropServices.xml;.Intrinsics.pdb;.Intrinsics.xml;.Loader.pdb;.Loader.xml;.Numerics.pdb;.Numerics.xml;.pdb;.Serialization.Formatters.pdb;.Serialization.Formatters.xml;.Serialization.Json.pdb;.Serialization.Json.xml;.Serialization.pdb;.Serialization.Primitives.pdb;.Serialization.Primitives.xml;.Serialization.Xml.pdb;.Serialization.Xml.xml;.xml"
+          },
+          "ref/netcoreapp3.1/System.Security.Claims.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Security.Cryptography.Algorithms.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Security.Cryptography.Csp.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Security.Cryptography.Encoding.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Security.Cryptography.Primitives.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Security.Cryptography.X509Certificates.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Security.Principal.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Security.SecureString.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.Security.dll": {
+            "related": ".Claims.pdb;.Claims.xml;.Cryptography.Algorithms.pdb;.Cryptography.Algorithms.xml;.Cryptography.Csp.pdb;.Cryptography.Csp.xml;.Cryptography.Encoding.pdb;.Cryptography.Encoding.xml;.Cryptography.Primitives.pdb;.Cryptography.Primitives.xml;.Cryptography.X509Certificates.pdb;.Cryptography.X509Certificates.xml;.pdb;.Principal.pdb;.Principal.xml;.SecureString.pdb"
+          },
+          "ref/netcoreapp3.1/System.ServiceModel.Web.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.ServiceProcess.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.Text.Encoding.CodePages.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Text.Encoding.Extensions.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Text.Encoding.dll": {
+            "related": ".CodePages.pdb;.CodePages.xml;.Extensions.pdb;.Extensions.xml;.pdb"
+          },
+          "ref/netcoreapp3.1/System.Text.Encodings.Web.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Text.Json.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Text.RegularExpressions.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Threading.Channels.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Threading.Overlapped.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Threading.Tasks.Dataflow.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Threading.Tasks.Extensions.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.Threading.Tasks.Parallel.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Threading.Tasks.dll": {
+            "related": ".Dataflow.pdb;.Dataflow.xml;.Extensions.pdb;.Parallel.pdb;.Parallel.xml;.pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Threading.Thread.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Threading.ThreadPool.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Threading.Timer.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Threading.dll": {
+            "related": ".Channels.pdb;.Channels.xml;.Overlapped.pdb;.Overlapped.xml;.pdb;.Tasks.Dataflow.pdb;.Tasks.Dataflow.xml;.Tasks.Extensions.pdb;.Tasks.Parallel.pdb;.Tasks.Parallel.xml;.Tasks.pdb;.Tasks.xml;.Thread.pdb;.Thread.xml;.ThreadPool.pdb;.ThreadPool.xml;.Timer.pdb;.Timer.xml;.xml"
+          },
+          "ref/netcoreapp3.1/System.Transactions.Local.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Transactions.dll": {
+            "related": ".Local.pdb;.Local.xml;.pdb"
+          },
+          "ref/netcoreapp3.1/System.ValueTuple.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.Web.HttpUtility.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Web.dll": {
+            "related": ".HttpUtility.pdb;.HttpUtility.xml;.pdb"
+          },
+          "ref/netcoreapp3.1/System.Windows.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.Xml.Linq.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.Xml.ReaderWriter.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Xml.Serialization.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.Xml.XDocument.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Xml.XPath.XDocument.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Xml.XPath.dll": {
+            "related": ".pdb;.XDocument.pdb;.XDocument.xml;.xml"
+          },
+          "ref/netcoreapp3.1/System.Xml.XmlDocument.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/System.Xml.XmlSerializer.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/System.Xml.dll": {
+            "related": ".Linq.pdb;.pdb;.ReaderWriter.pdb;.ReaderWriter.xml;.Serialization.pdb;.XDocument.pdb;.XDocument.xml;.XmlDocument.pdb;.XmlSerializer.pdb;.XmlSerializer.xml;.XPath.pdb;.XPath.XDocument.pdb;.XPath.XDocument.xml;.XPath.xml"
+          },
+          "ref/netcoreapp3.1/System.dll": {
+            "related": ".AppContext.pdb;.Buffers.pdb;.Buffers.xml;.Collections.Concurrent.pdb;.Collections.Concurrent.xml;.Collections.Immutable.pdb;.Collections.Immutable.xml;.Collections.NonGeneric.pdb;.Collections.NonGeneric.xml;.Collections.pdb;.Collections.Specialized.pdb;.Collections.Specialized.xml;.Collections.xml;.ComponentModel.Annotations.pdb;.ComponentModel.Annotations.xml;.ComponentModel.DataAnnotations.pdb;.ComponentModel.EventBasedAsync.pdb;.ComponentModel.EventBasedAsync.xml;.ComponentModel.pdb;.ComponentModel.Primitives.pdb;.ComponentModel.Primitives.xml;.ComponentModel.TypeConverter.pdb;.ComponentModel.TypeConverter.xml;.ComponentModel.xml;.Configuration.pdb;.Console.pdb;.Console.xml;.Core.pdb;.Data.Common.pdb;.Data.Common.xml;.Data.DataSetExtensions.pdb;.Data.pdb;.Diagnostics.Contracts.pdb;.Diagnostics.Contracts.xml;.Diagnostics.Debug.pdb;.Diagnostics.Debug.xml;.Diagnostics.DiagnosticSource.pdb;.Diagnostics.DiagnosticSource.xml;.Diagnostics.FileVersionInfo.pdb;.Diagnostics.FileVersionInfo.xml;.Diagnostics.Process.pdb;.Diagnostics.Process.xml;.Diagnostics.StackTrace.pdb;.Diagnostics.StackTrace.xml;.Diagnostics.TextWriterTraceListener.pdb;.Diagnostics.TextWriterTraceListener.xml;.Diagnostics.Tools.pdb;.Diagnostics.Tools.xml;.Diagnostics.TraceSource.pdb;.Diagnostics.TraceSource.xml;.Diagnostics.Tracing.pdb;.Diagnostics.Tracing.xml;.Drawing.pdb;.Drawing.Primitives.pdb;.Drawing.Primitives.xml;.Dynamic.Runtime.pdb;.Globalization.Calendars.pdb;.Globalization.Extensions.pdb;.Globalization.pdb;.IO.Compression.Brotli.pdb;.IO.Compression.Brotli.xml;.IO.Compression.FileSystem.pdb;.IO.Compression.pdb;.IO.Compression.xml;.IO.Compression.ZipFile.pdb;.IO.Compression.ZipFile.xml;.IO.FileSystem.DriveInfo.pdb;.IO.FileSystem.DriveInfo.xml;.IO.FileSystem.pdb;.IO.FileSystem.Primitives.pdb;.IO.FileSystem.Watcher.pdb;.IO.FileSystem.Watcher.xml;.IO.FileSystem.xml;.IO.IsolatedStorage.pdb;.IO.IsolatedStorage.xml;.IO.MemoryMappedFiles.pdb;.IO.MemoryMappedFiles.xml;.IO.pdb;.IO.Pipes.pdb;.IO.Pipes.xml;.IO.UnmanagedMemoryStream.pdb;.Linq.Expressions.pdb;.Linq.Expressions.xml;.Linq.Parallel.pdb;.Linq.Parallel.xml;.Linq.pdb;.Linq.Queryable.pdb;.Linq.Queryable.xml;.Linq.xml;.Memory.pdb;.Memory.xml;.Net.Http.pdb;.Net.Http.xml;.Net.HttpListener.pdb;.Net.HttpListener.xml;.Net.Mail.pdb;.Net.Mail.xml;.Net.NameResolution.pdb;.Net.NameResolution.xml;.Net.NetworkInformation.pdb;.Net.NetworkInformation.xml;.Net.pdb;.Net.Ping.pdb;.Net.Ping.xml;.Net.Primitives.pdb;.Net.Primitives.xml;.Net.Requests.pdb;.Net.Requests.xml;.Net.Security.pdb;.Net.Security.xml;.Net.ServicePoint.pdb;.Net.ServicePoint.xml;.Net.Sockets.pdb;.Net.Sockets.xml;.Net.WebClient.pdb;.Net.WebClient.xml;.Net.WebHeaderCollection.pdb;.Net.WebHeaderCollection.xml;.Net.WebProxy.pdb;.Net.WebProxy.xml;.Net.WebSockets.Client.pdb;.Net.WebSockets.Client.xml;.Net.WebSockets.pdb;.Net.WebSockets.xml;.Numerics.pdb;.Numerics.Vectors.pdb;.Numerics.Vectors.xml;.ObjectModel.pdb;.ObjectModel.xml;.pdb;.Reflection.DispatchProxy.pdb;.Reflection.DispatchProxy.xml;.Reflection.Emit.ILGeneration.pdb;.Reflection.Emit.ILGeneration.xml;.Reflection.Emit.Lightweight.pdb;.Reflection.Emit.Lightweight.xml;.Reflection.Emit.pdb;.Reflection.Emit.xml;.Reflection.Extensions.pdb;.Reflection.Metadata.pdb;.Reflection.Metadata.xml;.Reflection.pdb;.Reflection.Primitives.pdb;.Reflection.Primitives.xml;.Reflection.TypeExtensions.pdb;.Reflection.TypeExtensions.xml;.Resources.Reader.pdb;.Resources.ResourceManager.pdb;.Resources.ResourceManager.xml;.Resources.Writer.pdb;.Resources.Writer.xml;.Runtime.CompilerServices.Unsafe.pdb;.Runtime.CompilerServices.Unsafe.xml;.Runtime.CompilerServices.VisualC.pdb;.Runtime.CompilerServices.VisualC.xml;.Runtime.Extensions.pdb;.Runtime.Extensions.xml;.Runtime.Handles.pdb;.Runtime.InteropServices.pdb;.Runtime.InteropServices.RuntimeInformation.pdb;.Runtime.InteropServices.RuntimeInformation.xml;.Runtime.InteropServices.WindowsRuntime.pdb;.Runtime.InteropServices.WindowsRuntime.xml;.Runtime.InteropServices.xml;.Runtime.Intrinsics.pdb;.Runtime.Intrinsics.xml;.Runtime.Loader.pdb;.Runtime.Loader.xml;.Runtime.Numerics.pdb;.Runtime.Numerics.xml;.Runtime.pdb;.Runtime.Serialization.Formatters.pdb;.Runtime.Serialization.Formatters.xml;.Runtime.Serialization.Json.pdb;.Runtime.Serialization.Json.xml;.Runtime.Serialization.pdb;.Runtime.Serialization.Primitives.pdb;.Runtime.Serialization.Primitives.xml;.Runtime.Serialization.Xml.pdb;.Runtime.Serialization.Xml.xml;.Runtime.xml;.Security.Claims.pdb;.Security.Claims.xml;.Security.Cryptography.Algorithms.pdb;.Security.Cryptography.Algorithms.xml;.Security.Cryptography.Csp.pdb;.Security.Cryptography.Csp.xml;.Security.Cryptography.Encoding.pdb;.Security.Cryptography.Encoding.xml;.Security.Cryptography.Primitives.pdb;.Security.Cryptography.Primitives.xml;.Security.Cryptography.X509Certificates.pdb;.Security.Cryptography.X509Certificates.xml;.Security.pdb;.Security.Principal.pdb;.Security.Principal.xml;.Security.SecureString.pdb;.ServiceModel.Web.pdb;.ServiceProcess.pdb;.Text.Encoding.CodePages.pdb;.Text.Encoding.CodePages.xml;.Text.Encoding.Extensions.pdb;.Text.Encoding.Extensions.xml;.Text.Encoding.pdb;.Text.Encodings.Web.pdb;.Text.Encodings.Web.xml;.Text.Json.pdb;.Text.Json.xml;.Text.RegularExpressions.pdb;.Text.RegularExpressions.xml;.Threading.Channels.pdb;.Threading.Channels.xml;.Threading.Overlapped.pdb;.Threading.Overlapped.xml;.Threading.pdb;.Threading.Tasks.Dataflow.pdb;.Threading.Tasks.Dataflow.xml;.Threading.Tasks.Extensions.pdb;.Threading.Tasks.Parallel.pdb;.Threading.Tasks.Parallel.xml;.Threading.Tasks.pdb;.Threading.Tasks.xml;.Threading.Thread.pdb;.Threading.Thread.xml;.Threading.ThreadPool.pdb;.Threading.ThreadPool.xml;.Threading.Timer.pdb;.Threading.Timer.xml;.Threading.xml;.Transactions.Local.pdb;.Transactions.Local.xml;.Transactions.pdb;.ValueTuple.pdb;.Web.HttpUtility.pdb;.Web.HttpUtility.xml;.Web.pdb;.Windows.pdb;.Xml.Linq.pdb;.Xml.pdb;.Xml.ReaderWriter.pdb;.Xml.ReaderWriter.xml;.Xml.Serialization.pdb;.Xml.XDocument.pdb;.Xml.XDocument.xml;.Xml.XmlDocument.pdb;.Xml.XmlSerializer.pdb;.Xml.XmlSerializer.xml;.Xml.XPath.pdb;.Xml.XPath.XDocument.pdb;.Xml.XPath.XDocument.xml;.Xml.XPath.xml"
+          },
+          "ref/netcoreapp3.1/WindowsBase.dll": {
+            "related": ".pdb;.xml"
+          },
+          "ref/netcoreapp3.1/mscorlib.dll": {
+            "related": ".pdb"
+          },
+          "ref/netcoreapp3.1/netstandard.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "runtime.win-x64.Microsoft.Private.CoreFx.NETCoreApp/4.7.0-dev.21370.1": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard/_._": {}
+        },
+        "runtime": {
+          "runtimes/win-x64/lib/netcoreapp3.1/Microsoft.CSharp.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/Microsoft.VisualBasic.Core.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/Microsoft.VisualBasic.dll": {
+            "related": ".Core.pdb;.pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/Microsoft.Win32.Primitives.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/Microsoft.Win32.Registry.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.AppContext.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Buffers.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Collections.Concurrent.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Collections.Immutable.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Collections.NonGeneric.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Collections.Specialized.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Collections.dll": {
+            "related": ".Concurrent.pdb;.Immutable.pdb;.NonGeneric.pdb;.pdb;.Specialized.pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.ComponentModel.Annotations.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.ComponentModel.DataAnnotations.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.ComponentModel.EventBasedAsync.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.ComponentModel.Primitives.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.ComponentModel.TypeConverter.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.ComponentModel.dll": {
+            "related": ".Annotations.pdb;.DataAnnotations.pdb;.EventBasedAsync.pdb;.pdb;.Primitives.pdb;.TypeConverter.pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Configuration.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Console.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Core.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Data.Common.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Data.DataSetExtensions.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Data.dll": {
+            "related": ".Common.pdb;.DataSetExtensions.pdb;.pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Diagnostics.Contracts.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Diagnostics.Debug.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Diagnostics.FileVersionInfo.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Diagnostics.Process.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Diagnostics.StackTrace.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Diagnostics.TextWriterTraceListener.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Diagnostics.Tools.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Diagnostics.TraceSource.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Diagnostics.Tracing.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Drawing.Primitives.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Drawing.dll": {
+            "related": ".pdb;.Primitives.pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Dynamic.Runtime.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Globalization.Calendars.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Globalization.Extensions.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Globalization.dll": {
+            "related": ".Calendars.pdb;.Extensions.pdb;.pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.IO.Compression.Brotli.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.IO.Compression.FileSystem.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.IO.Compression.ZipFile.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.IO.Compression.dll": {
+            "related": ".Brotli.pdb;.FileSystem.pdb;.pdb;.ZipFile.pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.IO.FileSystem.AccessControl.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.IO.FileSystem.DriveInfo.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.IO.FileSystem.Primitives.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.IO.FileSystem.Watcher.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.IO.FileSystem.dll": {
+            "related": ".AccessControl.pdb;.DriveInfo.pdb;.pdb;.Primitives.pdb;.Watcher.pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.IO.IsolatedStorage.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.IO.MemoryMappedFiles.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.IO.Pipes.AccessControl.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.IO.Pipes.dll": {
+            "related": ".AccessControl.pdb;.pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.IO.UnmanagedMemoryStream.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.IO.dll": {
+            "related": ".Compression.Brotli.pdb;.Compression.FileSystem.pdb;.Compression.pdb;.Compression.ZipFile.pdb;.FileSystem.AccessControl.pdb;.FileSystem.DriveInfo.pdb;.FileSystem.pdb;.FileSystem.Primitives.pdb;.FileSystem.Watcher.pdb;.IsolatedStorage.pdb;.MemoryMappedFiles.pdb;.pdb;.Pipes.AccessControl.pdb;.Pipes.pdb;.UnmanagedMemoryStream.pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Linq.Expressions.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Linq.Parallel.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Linq.Queryable.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Linq.dll": {
+            "related": ".Expressions.pdb;.Parallel.pdb;.pdb;.Queryable.pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Memory.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Net.Http.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Net.HttpListener.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Net.Mail.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Net.NameResolution.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Net.NetworkInformation.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Net.Ping.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Net.Primitives.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Net.Requests.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Net.Security.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Net.ServicePoint.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Net.Sockets.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Net.WebClient.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Net.WebHeaderCollection.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Net.WebProxy.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Net.WebSockets.Client.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Net.WebSockets.dll": {
+            "related": ".Client.pdb;.pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Net.dll": {
+            "related": ".Http.pdb;.HttpListener.pdb;.Mail.pdb;.NameResolution.pdb;.NetworkInformation.pdb;.pdb;.Ping.pdb;.Primitives.pdb;.Requests.pdb;.Security.pdb;.ServicePoint.pdb;.Sockets.pdb;.WebClient.pdb;.WebHeaderCollection.pdb;.WebProxy.pdb;.WebSockets.Client.pdb;.WebSockets.pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Numerics.Vectors.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Numerics.dll": {
+            "related": ".pdb;.Vectors.pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.ObjectModel.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Private.DataContractSerialization.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Private.Uri.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Private.Xml.Linq.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Private.Xml.dll": {
+            "related": ".Linq.pdb;.pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Reflection.DispatchProxy.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Reflection.Emit.ILGeneration.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Reflection.Emit.Lightweight.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Reflection.Emit.dll": {
+            "related": ".ILGeneration.pdb;.Lightweight.pdb;.pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Reflection.Extensions.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Reflection.Metadata.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Reflection.Primitives.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Reflection.TypeExtensions.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Reflection.dll": {
+            "related": ".DispatchProxy.pdb;.Emit.ILGeneration.pdb;.Emit.Lightweight.pdb;.Emit.pdb;.Extensions.pdb;.Metadata.pdb;.pdb;.Primitives.pdb;.TypeExtensions.pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Resources.Reader.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Resources.ResourceManager.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Resources.Writer.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll": {},
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.CompilerServices.VisualC.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.Extensions.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.Handles.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.InteropServices.RuntimeInformation.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.InteropServices.WindowsRuntime.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.InteropServices.dll": {
+            "related": ".pdb;.RuntimeInformation.pdb;.WindowsRuntime.pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.Intrinsics.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.Loader.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.Numerics.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.Serialization.Formatters.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.Serialization.Json.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.Serialization.Primitives.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.Serialization.Xml.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.Serialization.dll": {
+            "related": ".Formatters.pdb;.Json.pdb;.pdb;.Primitives.pdb;.Xml.pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.WindowsRuntime.UI.Xaml.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.WindowsRuntime.dll": {
+            "related": ".pdb;.UI.Xaml.pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.dll": {
+            "related": ".CompilerServices.VisualC.pdb;.Extensions.pdb;.Handles.pdb;.InteropServices.pdb;.InteropServices.RuntimeInformation.pdb;.InteropServices.WindowsRuntime.pdb;.Intrinsics.pdb;.Loader.pdb;.Numerics.pdb;.pdb;.Serialization.Formatters.pdb;.Serialization.Json.pdb;.Serialization.pdb;.Serialization.Primitives.pdb;.Serialization.Xml.pdb;.WindowsRuntime.pdb;.WindowsRuntime.UI.Xaml.pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Security.AccessControl.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Security.Claims.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Security.Cryptography.Algorithms.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Security.Cryptography.Cng.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Security.Cryptography.Csp.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Security.Cryptography.Encoding.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Security.Cryptography.OpenSsl.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Security.Cryptography.Primitives.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Security.Cryptography.X509Certificates.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Security.Principal.Windows.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Security.Principal.dll": {
+            "related": ".pdb;.Windows.pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Security.SecureString.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Security.dll": {
+            "related": ".AccessControl.pdb;.Claims.pdb;.Cryptography.Algorithms.pdb;.Cryptography.Cng.pdb;.Cryptography.Csp.pdb;.Cryptography.Encoding.pdb;.Cryptography.OpenSsl.pdb;.Cryptography.Primitives.pdb;.Cryptography.X509Certificates.pdb;.pdb;.Principal.pdb;.Principal.Windows.pdb;.SecureString.pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.ServiceModel.Web.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.ServiceProcess.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Text.Encoding.CodePages.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Text.Encoding.Extensions.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Text.Encoding.dll": {
+            "related": ".CodePages.pdb;.Extensions.pdb;.pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Text.Encodings.Web.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Text.Json.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Text.RegularExpressions.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Threading.Channels.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Threading.Overlapped.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Threading.Tasks.Dataflow.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Threading.Tasks.Extensions.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Threading.Tasks.Parallel.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Threading.Tasks.dll": {
+            "related": ".Dataflow.pdb;.Extensions.pdb;.Parallel.pdb;.pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Threading.Thread.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Threading.ThreadPool.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Threading.Timer.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Threading.dll": {
+            "related": ".Channels.pdb;.Overlapped.pdb;.pdb;.Tasks.Dataflow.pdb;.Tasks.Extensions.pdb;.Tasks.Parallel.pdb;.Tasks.pdb;.Thread.pdb;.ThreadPool.pdb;.Timer.pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Transactions.Local.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Transactions.dll": {
+            "related": ".Local.pdb;.pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.ValueTuple.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Web.HttpUtility.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Web.dll": {
+            "related": ".HttpUtility.pdb;.pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Windows.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Xml.Linq.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Xml.ReaderWriter.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Xml.Serialization.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Xml.XDocument.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Xml.XPath.XDocument.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Xml.XPath.dll": {
+            "related": ".pdb;.XDocument.pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Xml.XmlDocument.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Xml.XmlSerializer.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.Xml.dll": {
+            "related": ".Linq.pdb;.pdb;.ReaderWriter.pdb;.Serialization.pdb;.XDocument.pdb;.XmlDocument.pdb;.XmlSerializer.pdb;.XPath.pdb;.XPath.XDocument.pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/System.dll": {
+            "related": ".AppContext.pdb;.Buffers.pdb;.Collections.Concurrent.pdb;.Collections.Immutable.pdb;.Collections.NonGeneric.pdb;.Collections.pdb;.Collections.Specialized.pdb;.ComponentModel.Annotations.pdb;.ComponentModel.DataAnnotations.pdb;.ComponentModel.EventBasedAsync.pdb;.ComponentModel.pdb;.ComponentModel.Primitives.pdb;.ComponentModel.TypeConverter.pdb;.Configuration.pdb;.Console.pdb;.Core.pdb;.Data.Common.pdb;.Data.DataSetExtensions.pdb;.Data.pdb;.Diagnostics.Contracts.pdb;.Diagnostics.Debug.pdb;.Diagnostics.DiagnosticSource.pdb;.Diagnostics.FileVersionInfo.pdb;.Diagnostics.Process.pdb;.Diagnostics.StackTrace.pdb;.Diagnostics.TextWriterTraceListener.pdb;.Diagnostics.Tools.pdb;.Diagnostics.TraceSource.pdb;.Diagnostics.Tracing.pdb;.Drawing.pdb;.Drawing.Primitives.pdb;.Dynamic.Runtime.pdb;.Globalization.Calendars.pdb;.Globalization.Extensions.pdb;.Globalization.pdb;.IO.Compression.Brotli.pdb;.IO.Compression.FileSystem.pdb;.IO.Compression.pdb;.IO.Compression.ZipFile.pdb;.IO.FileSystem.AccessControl.pdb;.IO.FileSystem.DriveInfo.pdb;.IO.FileSystem.pdb;.IO.FileSystem.Primitives.pdb;.IO.FileSystem.Watcher.pdb;.IO.IsolatedStorage.pdb;.IO.MemoryMappedFiles.pdb;.IO.pdb;.IO.Pipes.AccessControl.pdb;.IO.Pipes.pdb;.IO.UnmanagedMemoryStream.pdb;.Linq.Expressions.pdb;.Linq.Parallel.pdb;.Linq.pdb;.Linq.Queryable.pdb;.Memory.pdb;.Net.Http.pdb;.Net.HttpListener.pdb;.Net.Mail.pdb;.Net.NameResolution.pdb;.Net.NetworkInformation.pdb;.Net.pdb;.Net.Ping.pdb;.Net.Primitives.pdb;.Net.Requests.pdb;.Net.Security.pdb;.Net.ServicePoint.pdb;.Net.Sockets.pdb;.Net.WebClient.pdb;.Net.WebHeaderCollection.pdb;.Net.WebProxy.pdb;.Net.WebSockets.Client.pdb;.Net.WebSockets.pdb;.Numerics.pdb;.Numerics.Vectors.pdb;.ObjectModel.pdb;.pdb;.Private.DataContractSerialization.pdb;.Private.Uri.pdb;.Private.Xml.Linq.pdb;.Private.Xml.pdb;.Reflection.DispatchProxy.pdb;.Reflection.Emit.ILGeneration.pdb;.Reflection.Emit.Lightweight.pdb;.Reflection.Emit.pdb;.Reflection.Extensions.pdb;.Reflection.Metadata.pdb;.Reflection.pdb;.Reflection.Primitives.pdb;.Reflection.TypeExtensions.pdb;.Resources.Reader.pdb;.Resources.ResourceManager.pdb;.Resources.Writer.pdb;.Runtime.CompilerServices.VisualC.pdb;.Runtime.Extensions.pdb;.Runtime.Handles.pdb;.Runtime.InteropServices.pdb;.Runtime.InteropServices.RuntimeInformation.pdb;.Runtime.InteropServices.WindowsRuntime.pdb;.Runtime.Intrinsics.pdb;.Runtime.Loader.pdb;.Runtime.Numerics.pdb;.Runtime.pdb;.Runtime.Serialization.Formatters.pdb;.Runtime.Serialization.Json.pdb;.Runtime.Serialization.pdb;.Runtime.Serialization.Primitives.pdb;.Runtime.Serialization.Xml.pdb;.Runtime.WindowsRuntime.pdb;.Runtime.WindowsRuntime.UI.Xaml.pdb;.Security.AccessControl.pdb;.Security.Claims.pdb;.Security.Cryptography.Algorithms.pdb;.Security.Cryptography.Cng.pdb;.Security.Cryptography.Csp.pdb;.Security.Cryptography.Encoding.pdb;.Security.Cryptography.OpenSsl.pdb;.Security.Cryptography.Primitives.pdb;.Security.Cryptography.X509Certificates.pdb;.Security.pdb;.Security.Principal.pdb;.Security.Principal.Windows.pdb;.Security.SecureString.pdb;.ServiceModel.Web.pdb;.ServiceProcess.pdb;.Text.Encoding.CodePages.pdb;.Text.Encoding.Extensions.pdb;.Text.Encoding.pdb;.Text.Encodings.Web.pdb;.Text.Json.pdb;.Text.RegularExpressions.pdb;.Threading.Channels.pdb;.Threading.Overlapped.pdb;.Threading.pdb;.Threading.Tasks.Dataflow.pdb;.Threading.Tasks.Extensions.pdb;.Threading.Tasks.Parallel.pdb;.Threading.Tasks.pdb;.Threading.Thread.pdb;.Threading.ThreadPool.pdb;.Threading.Timer.pdb;.Transactions.Local.pdb;.Transactions.pdb;.ValueTuple.pdb;.Web.HttpUtility.pdb;.Web.pdb;.Windows.pdb;.Xml.Linq.pdb;.Xml.pdb;.Xml.ReaderWriter.pdb;.Xml.Serialization.pdb;.Xml.XDocument.pdb;.Xml.XmlDocument.pdb;.Xml.XmlSerializer.pdb;.Xml.XPath.pdb;.Xml.XPath.XDocument.pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/WindowsBase.dll": {
+            "related": ".pdb;.xml"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/mscorlib.dll": {
+            "related": ".pdb"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/netstandard.dll": {
+            "related": ".pdb"
+          }
+        },
+        "native": {
+          "runtimes/win-x64/native/clrcompression.dll": {},
+          "runtimes/win-x64/native/clrcompression.pdb": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Private.CoreFx.NETCoreApp/4.7.0-dev.21370.1": {
+      "sha512": "99ei5ubGvG8j48z/742tEA00/8Llq8GrS/EsAxhfV91gtcacbGkUGg6x/ksEGoNCLzYus6onCoxbXW8qKulHCw==",
+      "type": "package",
+      "path": "microsoft.private.corefx.netcoreapp/4.7.0-dev.21370.1",
+      "files": [
+        ".nupkg.metadata",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "microsoft.private.corefx.netcoreapp.4.7.0-dev.21370.1.nupkg.sha512",
+        "microsoft.private.corefx.netcoreapp.nuspec",
+        "ref/netcoreapp3.1/Microsoft.CSharp.dll",
+        "ref/netcoreapp3.1/Microsoft.CSharp.pdb",
+        "ref/netcoreapp3.1/Microsoft.CSharp.xml",
+        "ref/netcoreapp3.1/Microsoft.VisualBasic.Core.dll",
+        "ref/netcoreapp3.1/Microsoft.VisualBasic.Core.pdb",
+        "ref/netcoreapp3.1/Microsoft.VisualBasic.Core.xml",
+        "ref/netcoreapp3.1/Microsoft.VisualBasic.dll",
+        "ref/netcoreapp3.1/Microsoft.VisualBasic.pdb",
+        "ref/netcoreapp3.1/Microsoft.Win32.Primitives.dll",
+        "ref/netcoreapp3.1/Microsoft.Win32.Primitives.pdb",
+        "ref/netcoreapp3.1/Microsoft.Win32.Primitives.xml",
+        "ref/netcoreapp3.1/System.AppContext.dll",
+        "ref/netcoreapp3.1/System.AppContext.pdb",
+        "ref/netcoreapp3.1/System.Buffers.dll",
+        "ref/netcoreapp3.1/System.Buffers.pdb",
+        "ref/netcoreapp3.1/System.Buffers.xml",
+        "ref/netcoreapp3.1/System.Collections.Concurrent.dll",
+        "ref/netcoreapp3.1/System.Collections.Concurrent.pdb",
+        "ref/netcoreapp3.1/System.Collections.Concurrent.xml",
+        "ref/netcoreapp3.1/System.Collections.Immutable.dll",
+        "ref/netcoreapp3.1/System.Collections.Immutable.pdb",
+        "ref/netcoreapp3.1/System.Collections.Immutable.xml",
+        "ref/netcoreapp3.1/System.Collections.NonGeneric.dll",
+        "ref/netcoreapp3.1/System.Collections.NonGeneric.pdb",
+        "ref/netcoreapp3.1/System.Collections.NonGeneric.xml",
+        "ref/netcoreapp3.1/System.Collections.Specialized.dll",
+        "ref/netcoreapp3.1/System.Collections.Specialized.pdb",
+        "ref/netcoreapp3.1/System.Collections.Specialized.xml",
+        "ref/netcoreapp3.1/System.Collections.dll",
+        "ref/netcoreapp3.1/System.Collections.pdb",
+        "ref/netcoreapp3.1/System.Collections.xml",
+        "ref/netcoreapp3.1/System.ComponentModel.Annotations.dll",
+        "ref/netcoreapp3.1/System.ComponentModel.Annotations.pdb",
+        "ref/netcoreapp3.1/System.ComponentModel.Annotations.xml",
+        "ref/netcoreapp3.1/System.ComponentModel.DataAnnotations.dll",
+        "ref/netcoreapp3.1/System.ComponentModel.DataAnnotations.pdb",
+        "ref/netcoreapp3.1/System.ComponentModel.EventBasedAsync.dll",
+        "ref/netcoreapp3.1/System.ComponentModel.EventBasedAsync.pdb",
+        "ref/netcoreapp3.1/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netcoreapp3.1/System.ComponentModel.Primitives.dll",
+        "ref/netcoreapp3.1/System.ComponentModel.Primitives.pdb",
+        "ref/netcoreapp3.1/System.ComponentModel.Primitives.xml",
+        "ref/netcoreapp3.1/System.ComponentModel.TypeConverter.dll",
+        "ref/netcoreapp3.1/System.ComponentModel.TypeConverter.pdb",
+        "ref/netcoreapp3.1/System.ComponentModel.TypeConverter.xml",
+        "ref/netcoreapp3.1/System.ComponentModel.dll",
+        "ref/netcoreapp3.1/System.ComponentModel.pdb",
+        "ref/netcoreapp3.1/System.ComponentModel.xml",
+        "ref/netcoreapp3.1/System.Configuration.dll",
+        "ref/netcoreapp3.1/System.Configuration.pdb",
+        "ref/netcoreapp3.1/System.Console.dll",
+        "ref/netcoreapp3.1/System.Console.pdb",
+        "ref/netcoreapp3.1/System.Console.xml",
+        "ref/netcoreapp3.1/System.Core.dll",
+        "ref/netcoreapp3.1/System.Core.pdb",
+        "ref/netcoreapp3.1/System.Data.Common.dll",
+        "ref/netcoreapp3.1/System.Data.Common.pdb",
+        "ref/netcoreapp3.1/System.Data.Common.xml",
+        "ref/netcoreapp3.1/System.Data.DataSetExtensions.dll",
+        "ref/netcoreapp3.1/System.Data.DataSetExtensions.pdb",
+        "ref/netcoreapp3.1/System.Data.dll",
+        "ref/netcoreapp3.1/System.Data.pdb",
+        "ref/netcoreapp3.1/System.Diagnostics.Contracts.dll",
+        "ref/netcoreapp3.1/System.Diagnostics.Contracts.pdb",
+        "ref/netcoreapp3.1/System.Diagnostics.Contracts.xml",
+        "ref/netcoreapp3.1/System.Diagnostics.Debug.dll",
+        "ref/netcoreapp3.1/System.Diagnostics.Debug.pdb",
+        "ref/netcoreapp3.1/System.Diagnostics.Debug.xml",
+        "ref/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll",
+        "ref/netcoreapp3.1/System.Diagnostics.DiagnosticSource.pdb",
+        "ref/netcoreapp3.1/System.Diagnostics.DiagnosticSource.xml",
+        "ref/netcoreapp3.1/System.Diagnostics.FileVersionInfo.dll",
+        "ref/netcoreapp3.1/System.Diagnostics.FileVersionInfo.pdb",
+        "ref/netcoreapp3.1/System.Diagnostics.FileVersionInfo.xml",
+        "ref/netcoreapp3.1/System.Diagnostics.Process.dll",
+        "ref/netcoreapp3.1/System.Diagnostics.Process.pdb",
+        "ref/netcoreapp3.1/System.Diagnostics.Process.xml",
+        "ref/netcoreapp3.1/System.Diagnostics.StackTrace.dll",
+        "ref/netcoreapp3.1/System.Diagnostics.StackTrace.pdb",
+        "ref/netcoreapp3.1/System.Diagnostics.StackTrace.xml",
+        "ref/netcoreapp3.1/System.Diagnostics.TextWriterTraceListener.dll",
+        "ref/netcoreapp3.1/System.Diagnostics.TextWriterTraceListener.pdb",
+        "ref/netcoreapp3.1/System.Diagnostics.TextWriterTraceListener.xml",
+        "ref/netcoreapp3.1/System.Diagnostics.Tools.dll",
+        "ref/netcoreapp3.1/System.Diagnostics.Tools.pdb",
+        "ref/netcoreapp3.1/System.Diagnostics.Tools.xml",
+        "ref/netcoreapp3.1/System.Diagnostics.TraceSource.dll",
+        "ref/netcoreapp3.1/System.Diagnostics.TraceSource.pdb",
+        "ref/netcoreapp3.1/System.Diagnostics.TraceSource.xml",
+        "ref/netcoreapp3.1/System.Diagnostics.Tracing.dll",
+        "ref/netcoreapp3.1/System.Diagnostics.Tracing.pdb",
+        "ref/netcoreapp3.1/System.Diagnostics.Tracing.xml",
+        "ref/netcoreapp3.1/System.Drawing.Primitives.dll",
+        "ref/netcoreapp3.1/System.Drawing.Primitives.pdb",
+        "ref/netcoreapp3.1/System.Drawing.Primitives.xml",
+        "ref/netcoreapp3.1/System.Drawing.dll",
+        "ref/netcoreapp3.1/System.Drawing.pdb",
+        "ref/netcoreapp3.1/System.Dynamic.Runtime.dll",
+        "ref/netcoreapp3.1/System.Dynamic.Runtime.pdb",
+        "ref/netcoreapp3.1/System.Globalization.Calendars.dll",
+        "ref/netcoreapp3.1/System.Globalization.Calendars.pdb",
+        "ref/netcoreapp3.1/System.Globalization.Extensions.dll",
+        "ref/netcoreapp3.1/System.Globalization.Extensions.pdb",
+        "ref/netcoreapp3.1/System.Globalization.dll",
+        "ref/netcoreapp3.1/System.Globalization.pdb",
+        "ref/netcoreapp3.1/System.IO.Compression.Brotli.dll",
+        "ref/netcoreapp3.1/System.IO.Compression.Brotli.pdb",
+        "ref/netcoreapp3.1/System.IO.Compression.Brotli.xml",
+        "ref/netcoreapp3.1/System.IO.Compression.FileSystem.dll",
+        "ref/netcoreapp3.1/System.IO.Compression.FileSystem.pdb",
+        "ref/netcoreapp3.1/System.IO.Compression.ZipFile.dll",
+        "ref/netcoreapp3.1/System.IO.Compression.ZipFile.pdb",
+        "ref/netcoreapp3.1/System.IO.Compression.ZipFile.xml",
+        "ref/netcoreapp3.1/System.IO.Compression.dll",
+        "ref/netcoreapp3.1/System.IO.Compression.pdb",
+        "ref/netcoreapp3.1/System.IO.Compression.xml",
+        "ref/netcoreapp3.1/System.IO.FileSystem.DriveInfo.dll",
+        "ref/netcoreapp3.1/System.IO.FileSystem.DriveInfo.pdb",
+        "ref/netcoreapp3.1/System.IO.FileSystem.DriveInfo.xml",
+        "ref/netcoreapp3.1/System.IO.FileSystem.Primitives.dll",
+        "ref/netcoreapp3.1/System.IO.FileSystem.Primitives.pdb",
+        "ref/netcoreapp3.1/System.IO.FileSystem.Watcher.dll",
+        "ref/netcoreapp3.1/System.IO.FileSystem.Watcher.pdb",
+        "ref/netcoreapp3.1/System.IO.FileSystem.Watcher.xml",
+        "ref/netcoreapp3.1/System.IO.FileSystem.dll",
+        "ref/netcoreapp3.1/System.IO.FileSystem.pdb",
+        "ref/netcoreapp3.1/System.IO.FileSystem.xml",
+        "ref/netcoreapp3.1/System.IO.IsolatedStorage.dll",
+        "ref/netcoreapp3.1/System.IO.IsolatedStorage.pdb",
+        "ref/netcoreapp3.1/System.IO.IsolatedStorage.xml",
+        "ref/netcoreapp3.1/System.IO.MemoryMappedFiles.dll",
+        "ref/netcoreapp3.1/System.IO.MemoryMappedFiles.pdb",
+        "ref/netcoreapp3.1/System.IO.MemoryMappedFiles.xml",
+        "ref/netcoreapp3.1/System.IO.Pipes.dll",
+        "ref/netcoreapp3.1/System.IO.Pipes.pdb",
+        "ref/netcoreapp3.1/System.IO.Pipes.xml",
+        "ref/netcoreapp3.1/System.IO.UnmanagedMemoryStream.dll",
+        "ref/netcoreapp3.1/System.IO.UnmanagedMemoryStream.pdb",
+        "ref/netcoreapp3.1/System.IO.dll",
+        "ref/netcoreapp3.1/System.IO.pdb",
+        "ref/netcoreapp3.1/System.Linq.Expressions.dll",
+        "ref/netcoreapp3.1/System.Linq.Expressions.pdb",
+        "ref/netcoreapp3.1/System.Linq.Expressions.xml",
+        "ref/netcoreapp3.1/System.Linq.Parallel.dll",
+        "ref/netcoreapp3.1/System.Linq.Parallel.pdb",
+        "ref/netcoreapp3.1/System.Linq.Parallel.xml",
+        "ref/netcoreapp3.1/System.Linq.Queryable.dll",
+        "ref/netcoreapp3.1/System.Linq.Queryable.pdb",
+        "ref/netcoreapp3.1/System.Linq.Queryable.xml",
+        "ref/netcoreapp3.1/System.Linq.dll",
+        "ref/netcoreapp3.1/System.Linq.pdb",
+        "ref/netcoreapp3.1/System.Linq.xml",
+        "ref/netcoreapp3.1/System.Memory.dll",
+        "ref/netcoreapp3.1/System.Memory.pdb",
+        "ref/netcoreapp3.1/System.Memory.xml",
+        "ref/netcoreapp3.1/System.Net.Http.dll",
+        "ref/netcoreapp3.1/System.Net.Http.pdb",
+        "ref/netcoreapp3.1/System.Net.Http.xml",
+        "ref/netcoreapp3.1/System.Net.HttpListener.dll",
+        "ref/netcoreapp3.1/System.Net.HttpListener.pdb",
+        "ref/netcoreapp3.1/System.Net.HttpListener.xml",
+        "ref/netcoreapp3.1/System.Net.Mail.dll",
+        "ref/netcoreapp3.1/System.Net.Mail.pdb",
+        "ref/netcoreapp3.1/System.Net.Mail.xml",
+        "ref/netcoreapp3.1/System.Net.NameResolution.dll",
+        "ref/netcoreapp3.1/System.Net.NameResolution.pdb",
+        "ref/netcoreapp3.1/System.Net.NameResolution.xml",
+        "ref/netcoreapp3.1/System.Net.NetworkInformation.dll",
+        "ref/netcoreapp3.1/System.Net.NetworkInformation.pdb",
+        "ref/netcoreapp3.1/System.Net.NetworkInformation.xml",
+        "ref/netcoreapp3.1/System.Net.Ping.dll",
+        "ref/netcoreapp3.1/System.Net.Ping.pdb",
+        "ref/netcoreapp3.1/System.Net.Ping.xml",
+        "ref/netcoreapp3.1/System.Net.Primitives.dll",
+        "ref/netcoreapp3.1/System.Net.Primitives.pdb",
+        "ref/netcoreapp3.1/System.Net.Primitives.xml",
+        "ref/netcoreapp3.1/System.Net.Requests.dll",
+        "ref/netcoreapp3.1/System.Net.Requests.pdb",
+        "ref/netcoreapp3.1/System.Net.Requests.xml",
+        "ref/netcoreapp3.1/System.Net.Security.dll",
+        "ref/netcoreapp3.1/System.Net.Security.pdb",
+        "ref/netcoreapp3.1/System.Net.Security.xml",
+        "ref/netcoreapp3.1/System.Net.ServicePoint.dll",
+        "ref/netcoreapp3.1/System.Net.ServicePoint.pdb",
+        "ref/netcoreapp3.1/System.Net.ServicePoint.xml",
+        "ref/netcoreapp3.1/System.Net.Sockets.dll",
+        "ref/netcoreapp3.1/System.Net.Sockets.pdb",
+        "ref/netcoreapp3.1/System.Net.Sockets.xml",
+        "ref/netcoreapp3.1/System.Net.WebClient.dll",
+        "ref/netcoreapp3.1/System.Net.WebClient.pdb",
+        "ref/netcoreapp3.1/System.Net.WebClient.xml",
+        "ref/netcoreapp3.1/System.Net.WebHeaderCollection.dll",
+        "ref/netcoreapp3.1/System.Net.WebHeaderCollection.pdb",
+        "ref/netcoreapp3.1/System.Net.WebHeaderCollection.xml",
+        "ref/netcoreapp3.1/System.Net.WebProxy.dll",
+        "ref/netcoreapp3.1/System.Net.WebProxy.pdb",
+        "ref/netcoreapp3.1/System.Net.WebProxy.xml",
+        "ref/netcoreapp3.1/System.Net.WebSockets.Client.dll",
+        "ref/netcoreapp3.1/System.Net.WebSockets.Client.pdb",
+        "ref/netcoreapp3.1/System.Net.WebSockets.Client.xml",
+        "ref/netcoreapp3.1/System.Net.WebSockets.dll",
+        "ref/netcoreapp3.1/System.Net.WebSockets.pdb",
+        "ref/netcoreapp3.1/System.Net.WebSockets.xml",
+        "ref/netcoreapp3.1/System.Net.dll",
+        "ref/netcoreapp3.1/System.Net.pdb",
+        "ref/netcoreapp3.1/System.Numerics.Vectors.dll",
+        "ref/netcoreapp3.1/System.Numerics.Vectors.pdb",
+        "ref/netcoreapp3.1/System.Numerics.Vectors.xml",
+        "ref/netcoreapp3.1/System.Numerics.dll",
+        "ref/netcoreapp3.1/System.Numerics.pdb",
+        "ref/netcoreapp3.1/System.ObjectModel.dll",
+        "ref/netcoreapp3.1/System.ObjectModel.pdb",
+        "ref/netcoreapp3.1/System.ObjectModel.xml",
+        "ref/netcoreapp3.1/System.Reflection.DispatchProxy.dll",
+        "ref/netcoreapp3.1/System.Reflection.DispatchProxy.pdb",
+        "ref/netcoreapp3.1/System.Reflection.DispatchProxy.xml",
+        "ref/netcoreapp3.1/System.Reflection.Emit.ILGeneration.dll",
+        "ref/netcoreapp3.1/System.Reflection.Emit.ILGeneration.pdb",
+        "ref/netcoreapp3.1/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netcoreapp3.1/System.Reflection.Emit.Lightweight.dll",
+        "ref/netcoreapp3.1/System.Reflection.Emit.Lightweight.pdb",
+        "ref/netcoreapp3.1/System.Reflection.Emit.Lightweight.xml",
+        "ref/netcoreapp3.1/System.Reflection.Emit.dll",
+        "ref/netcoreapp3.1/System.Reflection.Emit.pdb",
+        "ref/netcoreapp3.1/System.Reflection.Emit.xml",
+        "ref/netcoreapp3.1/System.Reflection.Extensions.dll",
+        "ref/netcoreapp3.1/System.Reflection.Extensions.pdb",
+        "ref/netcoreapp3.1/System.Reflection.Metadata.dll",
+        "ref/netcoreapp3.1/System.Reflection.Metadata.pdb",
+        "ref/netcoreapp3.1/System.Reflection.Metadata.xml",
+        "ref/netcoreapp3.1/System.Reflection.Primitives.dll",
+        "ref/netcoreapp3.1/System.Reflection.Primitives.pdb",
+        "ref/netcoreapp3.1/System.Reflection.Primitives.xml",
+        "ref/netcoreapp3.1/System.Reflection.TypeExtensions.dll",
+        "ref/netcoreapp3.1/System.Reflection.TypeExtensions.pdb",
+        "ref/netcoreapp3.1/System.Reflection.TypeExtensions.xml",
+        "ref/netcoreapp3.1/System.Reflection.dll",
+        "ref/netcoreapp3.1/System.Reflection.pdb",
+        "ref/netcoreapp3.1/System.Resources.Reader.dll",
+        "ref/netcoreapp3.1/System.Resources.Reader.pdb",
+        "ref/netcoreapp3.1/System.Resources.ResourceManager.dll",
+        "ref/netcoreapp3.1/System.Resources.ResourceManager.pdb",
+        "ref/netcoreapp3.1/System.Resources.ResourceManager.xml",
+        "ref/netcoreapp3.1/System.Resources.Writer.dll",
+        "ref/netcoreapp3.1/System.Resources.Writer.pdb",
+        "ref/netcoreapp3.1/System.Resources.Writer.xml",
+        "ref/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.pdb",
+        "ref/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netcoreapp3.1/System.Runtime.CompilerServices.VisualC.dll",
+        "ref/netcoreapp3.1/System.Runtime.CompilerServices.VisualC.pdb",
+        "ref/netcoreapp3.1/System.Runtime.CompilerServices.VisualC.xml",
+        "ref/netcoreapp3.1/System.Runtime.Extensions.dll",
+        "ref/netcoreapp3.1/System.Runtime.Extensions.pdb",
+        "ref/netcoreapp3.1/System.Runtime.Extensions.xml",
+        "ref/netcoreapp3.1/System.Runtime.Handles.dll",
+        "ref/netcoreapp3.1/System.Runtime.Handles.pdb",
+        "ref/netcoreapp3.1/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "ref/netcoreapp3.1/System.Runtime.InteropServices.RuntimeInformation.pdb",
+        "ref/netcoreapp3.1/System.Runtime.InteropServices.RuntimeInformation.xml",
+        "ref/netcoreapp3.1/System.Runtime.InteropServices.WindowsRuntime.dll",
+        "ref/netcoreapp3.1/System.Runtime.InteropServices.WindowsRuntime.pdb",
+        "ref/netcoreapp3.1/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netcoreapp3.1/System.Runtime.InteropServices.dll",
+        "ref/netcoreapp3.1/System.Runtime.InteropServices.pdb",
+        "ref/netcoreapp3.1/System.Runtime.InteropServices.xml",
+        "ref/netcoreapp3.1/System.Runtime.Intrinsics.dll",
+        "ref/netcoreapp3.1/System.Runtime.Intrinsics.pdb",
+        "ref/netcoreapp3.1/System.Runtime.Intrinsics.xml",
+        "ref/netcoreapp3.1/System.Runtime.Loader.dll",
+        "ref/netcoreapp3.1/System.Runtime.Loader.pdb",
+        "ref/netcoreapp3.1/System.Runtime.Loader.xml",
+        "ref/netcoreapp3.1/System.Runtime.Numerics.dll",
+        "ref/netcoreapp3.1/System.Runtime.Numerics.pdb",
+        "ref/netcoreapp3.1/System.Runtime.Numerics.xml",
+        "ref/netcoreapp3.1/System.Runtime.Serialization.Formatters.dll",
+        "ref/netcoreapp3.1/System.Runtime.Serialization.Formatters.pdb",
+        "ref/netcoreapp3.1/System.Runtime.Serialization.Formatters.xml",
+        "ref/netcoreapp3.1/System.Runtime.Serialization.Json.dll",
+        "ref/netcoreapp3.1/System.Runtime.Serialization.Json.pdb",
+        "ref/netcoreapp3.1/System.Runtime.Serialization.Json.xml",
+        "ref/netcoreapp3.1/System.Runtime.Serialization.Primitives.dll",
+        "ref/netcoreapp3.1/System.Runtime.Serialization.Primitives.pdb",
+        "ref/netcoreapp3.1/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcoreapp3.1/System.Runtime.Serialization.Xml.dll",
+        "ref/netcoreapp3.1/System.Runtime.Serialization.Xml.pdb",
+        "ref/netcoreapp3.1/System.Runtime.Serialization.Xml.xml",
+        "ref/netcoreapp3.1/System.Runtime.Serialization.dll",
+        "ref/netcoreapp3.1/System.Runtime.Serialization.pdb",
+        "ref/netcoreapp3.1/System.Runtime.dll",
+        "ref/netcoreapp3.1/System.Runtime.pdb",
+        "ref/netcoreapp3.1/System.Runtime.xml",
+        "ref/netcoreapp3.1/System.Security.Claims.dll",
+        "ref/netcoreapp3.1/System.Security.Claims.pdb",
+        "ref/netcoreapp3.1/System.Security.Claims.xml",
+        "ref/netcoreapp3.1/System.Security.Cryptography.Algorithms.dll",
+        "ref/netcoreapp3.1/System.Security.Cryptography.Algorithms.pdb",
+        "ref/netcoreapp3.1/System.Security.Cryptography.Algorithms.xml",
+        "ref/netcoreapp3.1/System.Security.Cryptography.Csp.dll",
+        "ref/netcoreapp3.1/System.Security.Cryptography.Csp.pdb",
+        "ref/netcoreapp3.1/System.Security.Cryptography.Csp.xml",
+        "ref/netcoreapp3.1/System.Security.Cryptography.Encoding.dll",
+        "ref/netcoreapp3.1/System.Security.Cryptography.Encoding.pdb",
+        "ref/netcoreapp3.1/System.Security.Cryptography.Encoding.xml",
+        "ref/netcoreapp3.1/System.Security.Cryptography.Primitives.dll",
+        "ref/netcoreapp3.1/System.Security.Cryptography.Primitives.pdb",
+        "ref/netcoreapp3.1/System.Security.Cryptography.Primitives.xml",
+        "ref/netcoreapp3.1/System.Security.Cryptography.X509Certificates.dll",
+        "ref/netcoreapp3.1/System.Security.Cryptography.X509Certificates.pdb",
+        "ref/netcoreapp3.1/System.Security.Cryptography.X509Certificates.xml",
+        "ref/netcoreapp3.1/System.Security.Principal.dll",
+        "ref/netcoreapp3.1/System.Security.Principal.pdb",
+        "ref/netcoreapp3.1/System.Security.Principal.xml",
+        "ref/netcoreapp3.1/System.Security.SecureString.dll",
+        "ref/netcoreapp3.1/System.Security.SecureString.pdb",
+        "ref/netcoreapp3.1/System.Security.dll",
+        "ref/netcoreapp3.1/System.Security.pdb",
+        "ref/netcoreapp3.1/System.ServiceModel.Web.dll",
+        "ref/netcoreapp3.1/System.ServiceModel.Web.pdb",
+        "ref/netcoreapp3.1/System.ServiceProcess.dll",
+        "ref/netcoreapp3.1/System.ServiceProcess.pdb",
+        "ref/netcoreapp3.1/System.Text.Encoding.CodePages.dll",
+        "ref/netcoreapp3.1/System.Text.Encoding.CodePages.pdb",
+        "ref/netcoreapp3.1/System.Text.Encoding.CodePages.xml",
+        "ref/netcoreapp3.1/System.Text.Encoding.Extensions.dll",
+        "ref/netcoreapp3.1/System.Text.Encoding.Extensions.pdb",
+        "ref/netcoreapp3.1/System.Text.Encoding.Extensions.xml",
+        "ref/netcoreapp3.1/System.Text.Encoding.dll",
+        "ref/netcoreapp3.1/System.Text.Encoding.pdb",
+        "ref/netcoreapp3.1/System.Text.Encodings.Web.dll",
+        "ref/netcoreapp3.1/System.Text.Encodings.Web.pdb",
+        "ref/netcoreapp3.1/System.Text.Encodings.Web.xml",
+        "ref/netcoreapp3.1/System.Text.Json.dll",
+        "ref/netcoreapp3.1/System.Text.Json.pdb",
+        "ref/netcoreapp3.1/System.Text.Json.xml",
+        "ref/netcoreapp3.1/System.Text.RegularExpressions.dll",
+        "ref/netcoreapp3.1/System.Text.RegularExpressions.pdb",
+        "ref/netcoreapp3.1/System.Text.RegularExpressions.xml",
+        "ref/netcoreapp3.1/System.Threading.Channels.dll",
+        "ref/netcoreapp3.1/System.Threading.Channels.pdb",
+        "ref/netcoreapp3.1/System.Threading.Channels.xml",
+        "ref/netcoreapp3.1/System.Threading.Overlapped.dll",
+        "ref/netcoreapp3.1/System.Threading.Overlapped.pdb",
+        "ref/netcoreapp3.1/System.Threading.Overlapped.xml",
+        "ref/netcoreapp3.1/System.Threading.Tasks.Dataflow.dll",
+        "ref/netcoreapp3.1/System.Threading.Tasks.Dataflow.pdb",
+        "ref/netcoreapp3.1/System.Threading.Tasks.Dataflow.xml",
+        "ref/netcoreapp3.1/System.Threading.Tasks.Extensions.dll",
+        "ref/netcoreapp3.1/System.Threading.Tasks.Extensions.pdb",
+        "ref/netcoreapp3.1/System.Threading.Tasks.Parallel.dll",
+        "ref/netcoreapp3.1/System.Threading.Tasks.Parallel.pdb",
+        "ref/netcoreapp3.1/System.Threading.Tasks.Parallel.xml",
+        "ref/netcoreapp3.1/System.Threading.Tasks.dll",
+        "ref/netcoreapp3.1/System.Threading.Tasks.pdb",
+        "ref/netcoreapp3.1/System.Threading.Tasks.xml",
+        "ref/netcoreapp3.1/System.Threading.Thread.dll",
+        "ref/netcoreapp3.1/System.Threading.Thread.pdb",
+        "ref/netcoreapp3.1/System.Threading.Thread.xml",
+        "ref/netcoreapp3.1/System.Threading.ThreadPool.dll",
+        "ref/netcoreapp3.1/System.Threading.ThreadPool.pdb",
+        "ref/netcoreapp3.1/System.Threading.ThreadPool.xml",
+        "ref/netcoreapp3.1/System.Threading.Timer.dll",
+        "ref/netcoreapp3.1/System.Threading.Timer.pdb",
+        "ref/netcoreapp3.1/System.Threading.Timer.xml",
+        "ref/netcoreapp3.1/System.Threading.dll",
+        "ref/netcoreapp3.1/System.Threading.pdb",
+        "ref/netcoreapp3.1/System.Threading.xml",
+        "ref/netcoreapp3.1/System.Transactions.Local.dll",
+        "ref/netcoreapp3.1/System.Transactions.Local.pdb",
+        "ref/netcoreapp3.1/System.Transactions.Local.xml",
+        "ref/netcoreapp3.1/System.Transactions.dll",
+        "ref/netcoreapp3.1/System.Transactions.pdb",
+        "ref/netcoreapp3.1/System.ValueTuple.dll",
+        "ref/netcoreapp3.1/System.ValueTuple.pdb",
+        "ref/netcoreapp3.1/System.Web.HttpUtility.dll",
+        "ref/netcoreapp3.1/System.Web.HttpUtility.pdb",
+        "ref/netcoreapp3.1/System.Web.HttpUtility.xml",
+        "ref/netcoreapp3.1/System.Web.dll",
+        "ref/netcoreapp3.1/System.Web.pdb",
+        "ref/netcoreapp3.1/System.Windows.dll",
+        "ref/netcoreapp3.1/System.Windows.pdb",
+        "ref/netcoreapp3.1/System.Xml.Linq.dll",
+        "ref/netcoreapp3.1/System.Xml.Linq.pdb",
+        "ref/netcoreapp3.1/System.Xml.ReaderWriter.dll",
+        "ref/netcoreapp3.1/System.Xml.ReaderWriter.pdb",
+        "ref/netcoreapp3.1/System.Xml.ReaderWriter.xml",
+        "ref/netcoreapp3.1/System.Xml.Serialization.dll",
+        "ref/netcoreapp3.1/System.Xml.Serialization.pdb",
+        "ref/netcoreapp3.1/System.Xml.XDocument.dll",
+        "ref/netcoreapp3.1/System.Xml.XDocument.pdb",
+        "ref/netcoreapp3.1/System.Xml.XDocument.xml",
+        "ref/netcoreapp3.1/System.Xml.XPath.XDocument.dll",
+        "ref/netcoreapp3.1/System.Xml.XPath.XDocument.pdb",
+        "ref/netcoreapp3.1/System.Xml.XPath.XDocument.xml",
+        "ref/netcoreapp3.1/System.Xml.XPath.dll",
+        "ref/netcoreapp3.1/System.Xml.XPath.pdb",
+        "ref/netcoreapp3.1/System.Xml.XPath.xml",
+        "ref/netcoreapp3.1/System.Xml.XmlDocument.dll",
+        "ref/netcoreapp3.1/System.Xml.XmlDocument.pdb",
+        "ref/netcoreapp3.1/System.Xml.XmlSerializer.dll",
+        "ref/netcoreapp3.1/System.Xml.XmlSerializer.pdb",
+        "ref/netcoreapp3.1/System.Xml.XmlSerializer.xml",
+        "ref/netcoreapp3.1/System.Xml.dll",
+        "ref/netcoreapp3.1/System.Xml.pdb",
+        "ref/netcoreapp3.1/System.dll",
+        "ref/netcoreapp3.1/System.pdb",
+        "ref/netcoreapp3.1/WindowsBase.dll",
+        "ref/netcoreapp3.1/WindowsBase.pdb",
+        "ref/netcoreapp3.1/WindowsBase.xml",
+        "ref/netcoreapp3.1/mscorlib.dll",
+        "ref/netcoreapp3.1/mscorlib.pdb",
+        "ref/netcoreapp3.1/netstandard.dll",
+        "ref/netcoreapp3.1/netstandard.pdb",
+        "runtime.json",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "runtime.win-x64.Microsoft.Private.CoreFx.NETCoreApp/4.7.0-dev.21370.1": {
+      "sha512": "3bZyCJQ1pwKvAU2mZRdJ2FMJ/LtdtaPEs8PBP+o4z1MUqLQwhIFYac8pNDDq8wleV1cgy0+9VG3Z+I6XOQo7xw==",
+      "type": "package",
+      "path": "runtime.win-x64.microsoft.private.corefx.netcoreapp/4.7.0-dev.21370.1",
+      "files": [
+        ".nupkg.metadata",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "ref/netstandard/_._",
+        "runtime.win-x64.microsoft.private.corefx.netcoreapp.4.7.0-dev.21370.1.nupkg.sha512",
+        "runtime.win-x64.microsoft.private.corefx.netcoreapp.nuspec",
+        "runtimes/win-x64/lib/netcoreapp3.1/Microsoft.CSharp.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/Microsoft.CSharp.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/Microsoft.VisualBasic.Core.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/Microsoft.VisualBasic.Core.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/Microsoft.VisualBasic.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/Microsoft.VisualBasic.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/Microsoft.Win32.Primitives.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/Microsoft.Win32.Primitives.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/Microsoft.Win32.Registry.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/Microsoft.Win32.Registry.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.AppContext.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.AppContext.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Buffers.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Buffers.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Collections.Concurrent.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Collections.Concurrent.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Collections.Immutable.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Collections.Immutable.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Collections.NonGeneric.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Collections.NonGeneric.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Collections.Specialized.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Collections.Specialized.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Collections.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Collections.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.ComponentModel.Annotations.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.ComponentModel.Annotations.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.ComponentModel.DataAnnotations.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.ComponentModel.DataAnnotations.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.ComponentModel.EventBasedAsync.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.ComponentModel.EventBasedAsync.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.ComponentModel.Primitives.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.ComponentModel.Primitives.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.ComponentModel.TypeConverter.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.ComponentModel.TypeConverter.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.ComponentModel.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.ComponentModel.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Configuration.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Configuration.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Console.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Console.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Core.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Core.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Data.Common.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Data.Common.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Data.DataSetExtensions.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Data.DataSetExtensions.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Data.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Data.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Diagnostics.Contracts.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Diagnostics.Contracts.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Diagnostics.Debug.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Diagnostics.Debug.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Diagnostics.DiagnosticSource.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Diagnostics.FileVersionInfo.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Diagnostics.FileVersionInfo.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Diagnostics.Process.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Diagnostics.Process.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Diagnostics.StackTrace.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Diagnostics.StackTrace.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Diagnostics.TextWriterTraceListener.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Diagnostics.TextWriterTraceListener.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Diagnostics.Tools.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Diagnostics.Tools.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Diagnostics.TraceSource.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Diagnostics.TraceSource.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Diagnostics.Tracing.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Diagnostics.Tracing.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Drawing.Primitives.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Drawing.Primitives.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Drawing.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Drawing.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Dynamic.Runtime.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Dynamic.Runtime.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Globalization.Calendars.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Globalization.Calendars.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Globalization.Extensions.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Globalization.Extensions.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Globalization.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Globalization.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.IO.Compression.Brotli.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.IO.Compression.Brotli.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.IO.Compression.FileSystem.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.IO.Compression.FileSystem.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.IO.Compression.ZipFile.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.IO.Compression.ZipFile.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.IO.Compression.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.IO.Compression.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.IO.FileSystem.AccessControl.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.IO.FileSystem.AccessControl.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.IO.FileSystem.DriveInfo.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.IO.FileSystem.DriveInfo.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.IO.FileSystem.Primitives.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.IO.FileSystem.Primitives.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.IO.FileSystem.Watcher.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.IO.FileSystem.Watcher.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.IO.FileSystem.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.IO.FileSystem.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.IO.IsolatedStorage.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.IO.IsolatedStorage.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.IO.MemoryMappedFiles.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.IO.MemoryMappedFiles.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.IO.Pipes.AccessControl.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.IO.Pipes.AccessControl.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.IO.Pipes.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.IO.Pipes.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.IO.UnmanagedMemoryStream.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.IO.UnmanagedMemoryStream.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.IO.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.IO.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Linq.Expressions.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Linq.Expressions.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Linq.Parallel.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Linq.Parallel.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Linq.Queryable.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Linq.Queryable.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Linq.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Linq.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Memory.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Memory.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Net.Http.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Net.Http.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Net.HttpListener.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Net.HttpListener.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Net.Mail.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Net.Mail.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Net.NameResolution.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Net.NameResolution.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Net.NetworkInformation.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Net.NetworkInformation.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Net.Ping.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Net.Ping.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Net.Primitives.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Net.Primitives.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Net.Requests.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Net.Requests.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Net.Security.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Net.Security.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Net.ServicePoint.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Net.ServicePoint.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Net.Sockets.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Net.Sockets.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Net.WebClient.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Net.WebClient.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Net.WebHeaderCollection.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Net.WebHeaderCollection.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Net.WebProxy.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Net.WebProxy.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Net.WebSockets.Client.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Net.WebSockets.Client.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Net.WebSockets.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Net.WebSockets.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Net.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Net.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Numerics.Vectors.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Numerics.Vectors.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Numerics.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Numerics.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.ObjectModel.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.ObjectModel.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Private.DataContractSerialization.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Private.DataContractSerialization.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Private.Uri.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Private.Uri.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Private.Xml.Linq.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Private.Xml.Linq.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Private.Xml.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Private.Xml.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Reflection.DispatchProxy.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Reflection.DispatchProxy.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Reflection.Emit.ILGeneration.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Reflection.Emit.ILGeneration.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Reflection.Emit.Lightweight.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Reflection.Emit.Lightweight.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Reflection.Emit.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Reflection.Emit.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Reflection.Extensions.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Reflection.Extensions.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Reflection.Metadata.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Reflection.Metadata.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Reflection.Primitives.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Reflection.Primitives.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Reflection.TypeExtensions.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Reflection.TypeExtensions.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Reflection.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Reflection.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Resources.Reader.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Resources.Reader.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Resources.ResourceManager.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Resources.ResourceManager.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Resources.Writer.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Resources.Writer.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.CompilerServices.VisualC.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.CompilerServices.VisualC.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.Extensions.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.Extensions.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.Handles.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.Handles.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.InteropServices.RuntimeInformation.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.InteropServices.WindowsRuntime.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.InteropServices.WindowsRuntime.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.InteropServices.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.InteropServices.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.Intrinsics.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.Intrinsics.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.Loader.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.Loader.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.Numerics.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.Numerics.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.Serialization.Formatters.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.Serialization.Formatters.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.Serialization.Json.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.Serialization.Json.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.Serialization.Primitives.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.Serialization.Primitives.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.Serialization.Xml.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.Serialization.Xml.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.Serialization.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.Serialization.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.WindowsRuntime.UI.Xaml.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.WindowsRuntime.UI.Xaml.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.WindowsRuntime.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.WindowsRuntime.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Runtime.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Security.AccessControl.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Security.AccessControl.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Security.Claims.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Security.Claims.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Security.Cryptography.Algorithms.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Security.Cryptography.Algorithms.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Security.Cryptography.Cng.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Security.Cryptography.Cng.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Security.Cryptography.Csp.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Security.Cryptography.Csp.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Security.Cryptography.Encoding.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Security.Cryptography.Encoding.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Security.Cryptography.OpenSsl.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Security.Cryptography.OpenSsl.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Security.Cryptography.Primitives.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Security.Cryptography.Primitives.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Security.Cryptography.X509Certificates.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Security.Cryptography.X509Certificates.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Security.Principal.Windows.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Security.Principal.Windows.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Security.Principal.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Security.Principal.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Security.SecureString.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Security.SecureString.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Security.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Security.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.ServiceModel.Web.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.ServiceModel.Web.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.ServiceProcess.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.ServiceProcess.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Text.Encoding.CodePages.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Text.Encoding.CodePages.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Text.Encoding.Extensions.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Text.Encoding.Extensions.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Text.Encoding.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Text.Encoding.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Text.Encodings.Web.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Text.Encodings.Web.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Text.Json.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Text.Json.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Text.RegularExpressions.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Text.RegularExpressions.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Threading.Channels.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Threading.Channels.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Threading.Overlapped.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Threading.Overlapped.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Threading.Tasks.Dataflow.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Threading.Tasks.Dataflow.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Threading.Tasks.Extensions.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Threading.Tasks.Extensions.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Threading.Tasks.Parallel.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Threading.Tasks.Parallel.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Threading.Tasks.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Threading.Tasks.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Threading.Thread.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Threading.Thread.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Threading.ThreadPool.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Threading.ThreadPool.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Threading.Timer.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Threading.Timer.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Threading.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Threading.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Transactions.Local.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Transactions.Local.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Transactions.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Transactions.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.ValueTuple.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.ValueTuple.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Web.HttpUtility.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Web.HttpUtility.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Web.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Web.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Windows.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Windows.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Xml.Linq.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Xml.Linq.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Xml.ReaderWriter.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Xml.ReaderWriter.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Xml.Serialization.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Xml.Serialization.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Xml.XDocument.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Xml.XDocument.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Xml.XPath.XDocument.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Xml.XPath.XDocument.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Xml.XPath.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Xml.XPath.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Xml.XmlDocument.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Xml.XmlDocument.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Xml.XmlSerializer.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Xml.XmlSerializer.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Xml.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.Xml.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/System.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/WindowsBase.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/WindowsBase.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/WindowsBase.xml",
+        "runtimes/win-x64/lib/netcoreapp3.1/mscorlib.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/mscorlib.pdb",
+        "runtimes/win-x64/lib/netcoreapp3.1/netstandard.dll",
+        "runtimes/win-x64/lib/netcoreapp3.1/netstandard.pdb",
+        "runtimes/win-x64/native/clrcompression.dll",
+        "runtimes/win-x64/native/clrcompression.pdb",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Microsoft.Private.CoreFx.NETCoreApp >= 4.7.0-dev.20465.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Stupin_D\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\dotnetapp\\CrtptoPro — копия\\DotnetCoreSampleProject\\DotnetSampleProject.csproj",
+      "projectName": "DotnetSampleProject",
+      "projectPath": "C:\\dotnetapp\\CrtptoPro — копия\\DotnetCoreSampleProject\\DotnetSampleProject.csproj",
+      "packagesPath": "C:\\Users\\Stupin_D\\.nuget\\packages\\",
+      "outputPath": "C:\\dotnetapp\\CrtptoPro — копия\\DotnetCoreSampleProject\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Stupin_D\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\packages": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "Microsoft.Private.CoreFx.NETCoreApp": {
+            "target": "Package",
+            "version": "[4.7.0-dev.20465.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+            "version": "[3.1.3, 3.1.3]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.3, 3.1.3]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.win-x64",
+            "version": "[3.1.3, 3.1.3]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+            "version": "[3.1.3, 3.1.3]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win-x64": {
+        "#import": []
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "DotnetSampleProject зависит от Microsoft.Private.CoreFx.NETCoreApp (>= 4.7.0-dev.20465.1), но Microsoft.Private.CoreFx.NETCoreApp 4.7.0-dev.20465.1 не найден. Использовано наилучшее приближенное соответствие Microsoft.Private.CoreFx.NETCoreApp 4.7.0-dev.21370.1.",
+      "libraryId": "Microsoft.Private.CoreFx.NETCoreApp",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1",
+        ".NETCoreApp,Version=v3.1/win-x64"
+      ]
+    }
+  ]
+}
