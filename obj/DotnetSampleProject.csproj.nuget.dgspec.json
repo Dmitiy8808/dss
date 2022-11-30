@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dotnetapp\\CrtptoPro — копия\\DotnetCoreSampleProject\\DotnetSampleProject.csproj": {}
+    "C:\\APP\\DSS\\dss\\DotnetSampleProject.csproj": {}
   },
   "projects": {
-    "C:\\dotnetapp\\CrtptoPro — копия\\DotnetCoreSampleProject\\DotnetSampleProject.csproj": {
+    "C:\\APP\\DSS\\dss\\DotnetSampleProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dotnetapp\\CrtptoPro — копия\\DotnetCoreSampleProject\\DotnetSampleProject.csproj",
+        "projectUniqueName": "C:\\APP\\DSS\\dss\\DotnetSampleProject.csproj",
         "projectName": "DotnetSampleProject",
-        "projectPath": "C:\\dotnetapp\\CrtptoPro — копия\\DotnetCoreSampleProject\\DotnetSampleProject.csproj",
-        "packagesPath": "C:\\Users\\Stupin_D\\.nuget\\packages\\",
-        "outputPath": "C:\\dotnetapp\\CrtptoPro — копия\\DotnetCoreSampleProject\\obj\\",
+        "projectPath": "C:\\APP\\DSS\\dss\\DotnetSampleProject.csproj",
+        "packagesPath": "C:\\Users\\SD\\.nuget\\packages\\",
+        "outputPath": "C:\\APP\\DSS\\dss\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Stupin_D\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SD\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -46,9 +46,17 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.25.0, )"
+            },
             "Microsoft.Private.CoreFx.NETCoreApp": {
               "target": "Package",
-              "version": "[4.7.0-dev.20465.1, )"
+              "version": "[4.7.0-dev.22531.1, )"
+            },
+            "System.Security.Cryptography.Cng": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
